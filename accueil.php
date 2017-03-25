@@ -32,9 +32,11 @@ require('essaiCAS.php');?>﻿
 		
 		
 		<p> Accueil | <a href="?logout=">Déconnexion</a> </p>
-		if (isset($_REQUEST['logout'])) {
- 			phpCAS::logout();
-		}	
+		<?php 
+			if (isset($_REQUEST['logout'])) {
+ 				phpCAS::logout();
+			}	
+		?>
 			
 
 
