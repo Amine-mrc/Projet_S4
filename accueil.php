@@ -30,10 +30,8 @@
 		
 		
 		
-		<p> Accueil | <a href="?logout=">Déconnexion</a> </p>
-			<?php   if (isset($_REQUEST['logout'])){
- 				phpCAS::logout();
-			}?>
+		<p> Accueil  </p>
+			
 
 
 		<hr width=150px align=left > 
