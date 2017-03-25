@@ -37,7 +37,7 @@ require('essaiCAS.php');?>﻿
 
 		<hr width=150px align=left > 
 	
-		<p id="pgeX"><p>Identifiant utilisateur : </p></p>
+		<p id="pgeX"><p>Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p></p>
 
 		
 		
