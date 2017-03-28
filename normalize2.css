@@ -1,4 +1,35 @@
 
+body {
+
+	
+
+        padding : 2%;
+
+	margin-left : 8%;  
+
+        background-color: #E8EBED;
+
+         background-image: url("fond_logo.png"), url("fond_trait.png");
+
+	background-attachment: fixed, fixed;
+
+	background-position: center -90px, 0px 0px;
+
+	background-repeat: no-repeat, repeat;
+
+	color: #383D40;
+
+	font-size: 16px;
+
+	font-family: "Source Sans Pro Light",Arial,Helvetica,sans-serif;
+
+	letter-spacing: 0px;
+
+
+
+	
+
+}CSS
 
 
 
@@ -93,7 +124,7 @@
 
 
 
-
+https://github.com/Amine-mrc/Projet_S4
 /* background des liens menus */
 
 #menu li{
