@@ -300,37 +300,9 @@ https://github.com/Amine-mrc/Projet_S4
 
 
 
-.formulaire{
 
-	display:inline-block;
 
-}
 
-.formulaire .champ{
-
-	margin-top : 0px; 
-
-	width:225px; 
-
-	height:35px;
-
-}
-
-.formulaire .bouton{ 
-
-	background-image: url(spotlight.jpg);
-
-	background-repeat: no-repeat;
-
-	width: 35px;
-
-	height: 35px;
-
-	
-
-	border-radius : 5px;
-
-}
 
 
 
@@ -652,7 +624,7 @@ p.formulaire{
 
 	/*display: block;*/
 
-	padding-left: 35%;
+	padding-left: 55%;
 
 	text-align: left;
 
