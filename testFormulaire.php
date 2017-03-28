@@ -6,7 +6,13 @@ require('essaiCAS.php');
   <head>
     <meta charset="utf-8">
     <title>Accueil</title>
-	<link rel="stylesheet" href="accueil.css">
+	<link rel="stylesheet" href="normalize2.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+		<script src="normalize.js"></script>
 	
   </head>
   
