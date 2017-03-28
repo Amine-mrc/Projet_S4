@@ -41,17 +41,19 @@ require('essaiCAS.php');
                         
                 </ul> </li>
                         <li><a href="https://www.univ-paris13.fr/bred/">En savoir plus</a></li>
+			<li><a href="?logout=">Déconnexion</a></li>
+			<?php 
+				if (isset($_REQUEST['logout'])) {
+ 					phpCAS::logout();
+				}	
+			?>
 		</ul>
         
 		
 		
 		
-		<p> Accueil | <a href="?logout=">Déconnexion</a> </p>
-		<?php 
-			if (isset($_REQUEST['logout'])) {
- 				phpCAS::logout();
-			}	
-		?>
+		<p> Accueil</p>
+		
 			
 
 
