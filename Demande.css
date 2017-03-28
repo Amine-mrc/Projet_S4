@@ -684,3 +684,526 @@ div.droite {
 	margin-bottom: 0;
 
 }
+*, *:before, *:after {
+
+  -moz-box-sizing: border-box;
+
+  -webkit-box-sizing: border-box;
+
+  box-sizing: border-box;
+
+}
+
+
+
+body {
+
+  font-family: 'Nunito', sans-serif;
+
+  color: #384047;
+
+}
+
+
+
+#bout {
+
+	margin: auto;
+
+	padding-top: 10px;
+
+	padding-bottom: 10px;
+
+	text-align: center;
+
+}
+
+
+
+form {
+
+  max-width: 90%;
+
+  margin: 10px auto;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  padding: 10px 20px;
+
+  background: #f4f7f8;
+
+  border-radius: 8px;
+
+}
+
+
+
+h1 {
+
+	margin: auto;
+
+	text-align: center;
+
+	font-size: 22px;
+
+	padding-bottom: 10px;
+
+	padding-top: 8px;
+
+}
+
+
+
+#logistique{
+
+	width: 95%;
+
+	height: 10em;
+
+	display: block;
+
+	margin: auto;
+
+	text-align: left;
+
+}
+
+
+
+input[type="text"],
+
+input[type="date"],
+
+input[type="datetime"],
+
+input[type="email"],
+
+input[type="number"],
+
+input[type="search"],
+
+input[type="tel"],
+
+input[type="time"],
+
+input[type="url"],
+
+textarea,
+
+select {
+
+  background: white;
+
+  border: none;
+
+  font-size: 1em;
+
+  height: 22px;
+
+  outline: 0;
+
+  width: 70%;
+
+  background-color: #e8eeef;
+
+  color: #8a97a0;
+
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+
+  text-align: left;
+
+}
+
+
+
+p.formulaire{
+
+	/*display: block;*/
+
+	padding-left: 55%;
+
+	text-align: left;
+
+	vertical-align: top;
+
+}
+
+
+
+input[type="radio"],
+
+input[type="checkbox"] {
+
+  margin: 0 4px 8px 0;
+
+  
+
+}
+
+
+
+select {
+
+  padding: 6px;
+
+  height: 32px;
+
+  border-radius: 2px;
+
+}
+
+
+
+div.but {
+
+	margin: auto;
+
+	text-align: center;
+
+}
+
+
+
+
+
+.but1 {
+
+  padding: 19px 39px 19px 39px;
+
+  color: #FFF;
+
+  background-color: #4bc970;
+
+  font-size: 18px;
+
+  text-align: center;
+
+  font-style: normal;
+
+  border-radius: 5px;
+
+  width: 40%;
+
+}
+
+
+
+.but2 {
+
+  padding: 19px 39px 19px 39px;
+
+  color: #FFF;
+
+  background-color: #ff5555;
+
+  font-size: 18px;
+
+  text-align: center;
+
+  font-style: normal;
+
+  border-radius: 5px;
+
+  width: 40%;
+
+}
+
+
+
+fieldset {
+
+  text-align: left;
+
+  border: none;
+
+}
+
+
+
+legend {
+
+  font-size: 1.08em;
+
+  margin-bottom: 8px;
+
+}
+
+
+
+label {
+
+	float: left;
+
+	margin-left: -120%;
+
+	text-align: center;
+
+}
+
+
+
+
+
+.number {
+
+  background-color: #5566fc;
+
+  color: #fff;
+
+  height: 22px;
+
+  width: 22px;
+
+  display: inline-block;
+
+  font-size: 0.8em;
+
+  margin-right: 4px;
+
+  line-height: 22px;
+
+  text-align: center;
+
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+
+  border-radius: 100%;
+
+}
+
+
+
+.numbere {
+
+background-color: #ff5555;
+
+  color: #fff;
+
+  height: 30px;
+
+  width: 30px;
+
+  display: inline-block;
+
+  font-size: 0.8em;
+
+  margin-right: 4px;
+
+  line-height: 30px;
+
+  text-align: center;
+
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+
+  border-radius: 100%;
+
+}
+
+
+
+
+
+/***********************************************************************************/
+
+
+
+
+
+div.gauche {
+
+	width: 50%;
+
+	float: left;
+
+}
+
+
+
+
+
+div.droite {
+
+	width: 50%;
+
+	float: right;
+
+
+
+}
+
+
+
+
+
+/***********************************************************************************/
+
+
+
+.masquable
+
+{
+
+	/* Par défaut bordure complète */
+
+	border: 1px solid #aaa;
+
+	/* Sert uniquement à créer un "containing élément" pour pouvoir placer le titre avec position: absolute  */
+
+	position: relative;
+
+	margin: 10px;
+
+}
+
+
+
+.masquable.ferme
+
+{
+
+	/* La boite ferme n'a que border-top (sinon trait épais) */
+
+	border: none;
+
+	border-top: 1px solid #aaa;
+
+}
+
+
+
+.masquable-titre 
+
+{
+
+	/* Permet de placer le titre dans .masquable (qui est "containing bloc") */
+
+	position: absolute;
+
+	font-size: 14px;
+
+	/* coordonnées relatives au "containing bloc" */
+
+	top: -11px;
+
+	left: 20px;
+
+	/* On ne veut pas que le titre fasse toute la ligne */
+
+	display: inline-block;
+
+	padding-left: 1em;
+
+	padding-right: 1em;
+
+	background-color: #f4f7f8;
+
+	cursor: pointer;
+
+	margin: 0;
+
+}
+
+
+
+/* Quand c'est ouvert les bordures font bouger légèrement le titre. Il faut compenser de 1px  */
+
+.masquable.ferme>.masquable-titre
+
+{
+
+	left: 21px;	
+
+}
+
+
+
+
+
+/* La petite boite avec "+" ou "-" */
+
+.masquable-titre span
+
+{
+
+	border: 1px solid #aaa;
+
+	display: inline-block;
+
+	width: 16px;
+
+	height: 16px;
+
+	text-align: center;
+
+	margin-top: 3px;
+
+}
+
+
+
+.masquable-titre:hover span
+
+{
+
+	background-color: #ffc;
+
+}
+
+
+
+
+
+.masquable-contenu
+
+{
+
+	padding: 1em;
+
+	overflow: hidden;
+
+}
+
+
+
+.masquable.ferme .masquable-contenu 
+
+{
+
+	/* Quand c'est ferme , on cache le contenu. */
+
+	/* On ne peut pas se contenter de le faire dans le JS... */
+
+	/* car on veut pouvoir avoir des parties fermées dès l'affichage initial */
+
+	/* (qui se fait en HTML+CSS seuls) */
+
+	display: none;
+
+}
+
+
+
+
+
+/* Éviter que le contenu ne commence par de l'espace vide */
+
+.masquable-contenu>*:first-child
+
+{
+
+	margin-top: 0;
+
+}
+
+
+
+/* Éviter que le contenu ne finisse par de l'espace vide */
+
+.masquable-contenu>*:last-child
+
+{
+
+	margin-bottom: 0;
+
+}
