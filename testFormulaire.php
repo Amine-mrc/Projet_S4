@@ -1,63 +1,30 @@
-<html><head></head><body>﻿
+<html>
 
 
 
-
-  
-
-    <meta charset="utf-8">
-
-    <title>Demande de subventions</title>
-
+	<head
 
         <meta charset="utf-8">
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Demande de subvention pour publication</title>
-        <link rel="stylesheet" href="Demande.css">
-       <!-- <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>-->
+
+        <link rel="stylesheet" href="normalize.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 		<script src="normalize.js"></script>
-    
 
-  
+    </head>
 
-   
-
+  <body>
 
 
-	<div class="bordereau">
-		<img id="logo" src="logoparis13.png" alt="Logo iut" height="75" width="170" align="right">
-		
-		<ul id="menu">
-        <li><a href="accueil.php">Accueil</a></li>
-        <li><a href="TableaudeBord.php">Tableau de bord </a> </li>
-         
-              <li><a href="#">Demande de subvention</a>
-                <ul> 
-                        <li><a href="Demande.php"> Informations </a> </li>
-                        <li><a href="Demande_subvention1.php"> Demande pour actes de colloques</a></li>
-                        <li><a href="Demande_subvention2.php"> Demande de manifestation scientifique </a> </li>
-                        
-                </ul> </li>
-                        <li><a href="https://www.univ-paris13.fr/bred/">En savoir plus</a></li>
-		</ul>
-       		 <p> Demande|<a href="?logout=">Déconnexion</a> </p>
-					
 
-
-		<hr width="150px" align="left"> 
-	
-		<p id="pgeX">Identifiant utilisateur : 11402470 </p>
-
-		
-	
-	</div> <!-- Fin div bordereau !-->
-   
-
-
-		<hr id="grdebarre" width="1020px">
-
-	<div id="ID1">
+		<div id="ID1">
 
 			<form action="index.html" method="post">
 
@@ -623,54 +590,12 @@
 
 		</div>
 
+
+
+
+
       
 
+  </body>
 
-  <!-- Footer !--> 
-
-	<hr id="grdebarre" width="1020px">
-
-	
-
-	<footer>
-
-				<ul id="menu-footer">
-
-					<a href="Contact.html" title="Contact">Contact</a>  &nbsp; &nbsp;
-
-					<a href="" title="Mentions légales">Mentions légales</a>  &nbsp; &nbsp; 
-
-					<a href="" title="Connexion">Connexion</a>
-
-					<div id="liensfooter">	
-
-						<a title="Facebook" href="https://www.facebook.com/pg/univparis13/about/?ref=page_internal"><img src="facebook.png" width="25%"></a>
-
-						<a title="Twitter" href="https://twitter.com/?lang=fr"><img src="twitter.png" width="25%"></a>
-
-						<a title="Youtube" href="https://www.youtube.com/?hl=fr&amp;gl=FR"><img src="youtube.png" width="25%"></a>
-
-						<a title="Google" href="https://www.google.fr/"><img src="google.png" width="25%"></a>
-
-					</div>
-
-				</ul>
-
-				
-
-	</footer>
-
-		
-
-	
-
-	
-
-	
-
-   
-
-
-
-
-</body></html>
+</html>
