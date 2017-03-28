@@ -69,23 +69,6 @@ require('essaiCAS.php');
 
 		<hr id = "grdebarre" width=1020px >
 
- 
-
-           
-
-
-
-
-
-
-	
-
-?>
-
-
-
-
-
 		<div id="ID1">
 			<form action="index.html" method="post">
 				<h1>Formulaire de demande de subvention pour publication d’actes de colloque ou d’ouvrages thematiques collectifs</h1>
