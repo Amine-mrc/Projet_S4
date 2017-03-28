@@ -58,158 +58,568 @@
 		<hr id="grdebarre" width="1020px">
 
 		<div id="ID1">
+
 			<form action="index.html" method="post">
+
 				<h1>Formulaire de demande de subvention pour publication d’actes de colloque ou d’ouvrages thematiques collectifs</h1>
+
 				
+
 				<h4><strong>Remplir les informations obligatoire avec *</strong></h4>
+
 				
+
 				<fieldset>
+
 					<legend><span class="number">1</span>Coordinateur Paris 13</legend>
+
 						<div class="masquable ferme">
+
 							<h2 class="masquable-titre"><span>+</span></h2>
-							<div class="masquable-contenu" style="display: none;">
+
+							<div class="masquable-contenu">
+
 								
-								<p><label> Prénom : </label> <input name="Composante" id="Composante" type="text"></p>
-									
-								<p><label> Nom : </label><input name="Laboratoire" id="Laboratoire" type="text"></p>
-									
-								<p><label> Qualité : </label><input name="Laboratoire" id="Laboratoire" type="text"></p>
 
-								<p><label> Composante : </label> <input name="Composante" id="Composante" type="text"></p>
-
-								<p><label> Laboratoire : </label><input name="Laboratoire" id="Laboratoire" type="text"></p>
-
-								<p><label> Type (actes, ouvrage) et nom de la publication : </label> <input name="Type" id="Type" type="text"></p>
-
-								<p><label> Date prévue et éditeur : </label> <input name="date_prevue" id="date_prevu" type="text"></p>
-
-								<p><label> Financement demandé (en €) : </label> <input name="Financement" id="Financement" type="text"></p>
 								
+
+								
+
+									<p class="formulaire"><label> Prénom : </label>	<input type="text" name="prenom_co" id="prenom_co"/></p>
+
+									
+
+									<p class="formulaire"><label> Nom : </label>	<input type="text" name="nom_co" id="nom_co"/></p>
+
+									
+
+									<p class="formulaire"><label> Qualité : </label>	<input type="text" name="qualite_co" id="qualite_co"/></p>
+
+									
+
+									<p class="formulaire"><label> Composante : </label>	<input type="text" name="composante_co" id="composante_co"/></p>
+
+									
+
+									<p class="formulaire"><label> Laboratoire : </label>	<input type="text" name="laboratoire_co" id="laboratoire_co"/></p>
+
+									
+
+									<p class="formulaire"><label> Type (actes, ouvrage) et nom de la publication : </label>	<input type="text" name="tel_co" id="Type"/></p>
+
+									
+
+									<p class="formulaire"><label> Date prévue et éditeur : </label>	<input type="text" name="date_prevue" id="date_prevu"/></p>
+
+									
+
+									<p class="formulaire"><label> Financement demandé (en €) : </label>	<input type="text" name="financement" id="financement"/></p>
+
+								
+
 							</div>
+
 						</div>
+
 				</fieldset>
+
 					
-					<h4><center> DEMANDE DE SUBVENTION POUR PUBLICATION </center></h4>
+
+					<h4><center> DEMANDE DE SUBVENTION POUR PUBLICATION </h4></center>
+
 					
+
 				<fieldset>
+
 					<legend><span class="number">2</span>Demande présentée par : </legend>
+
 					<!--------------------->
-					<div class="masquable ferme">
-						<h2 class="masquable-titre"><span>+</span></h2>
+
+					<div class="masquable">
+
+						<h2 class="masquable-titre"><span>-</span></h2>
+
 						<div class="masquable-contenu">
 
-							<p><label> Prénom* : </label>	<input name="prenom" id="prenom" type="text"></p>
+
+
+							<p class="formulaire"><label> Prénom* : </label>	<input type="text" name="prenom" id="prenom"/></p>
+
 							
-							<p><label> Nom* : </label>		<input name="nom" id="nom" type="text"></p>
+
+							<p class="formulaire"><label> Nom* : </label>		<input type="text" name="nom" id="nom"/></p>
+
 							
-							<p><label> Qualité* : </label>	<input name="qualite" id="qualite" type="text"></p>
+
+							<p class="formulaire"><label> Qualité* : </label>	<input type="text" name="qualite" id="qualite"/></p>
+
 							
-							<p><label> Composante* : </label>	<input name="composante2" id="composante2" type="text"></p>
+
+							<p class="formulaire"><label> Composante* : </label>	<input type="text" name="composante" id="composante"/></p>
+
 							
-							<p><label> Laboratoire* : </label>	<input name="laboratoire2" id="laboratoire2" type="text"></p>
+
+							<p class="formulaire"><label> Laboratoire* : </label>	<input type="text" name="laboratoire" id="laboratoire"/></p>
+
 							
-							<p><label> Téléphone* : </label>	<input placeholder="ex:0666666666" autofocus="" required="" pattern="(\d){10}" title="ex:0666666666" name="tel" id="tel" type="text"></p>
+
+							<p class="formulaire"><label> Téléphone* : </label>	<input type="text" placeholder="ex:0666666666" autofocus required pattern="(\d){10}" title="ex:0666666666" name="tel" id="tel"/></p>
+
 							
-							<p><label> Mail* : </label>		<input name="mail" id="mail" type="text"></p>
+
+							<p class="formulaire"><label> Mail* : </label>		<input type="text" name="mail" id="mail"/></p>
+
 																
+
 						</div>
+
 					</div>
+
 				</fieldset>
 
+
+
 				<fieldset>
+
 					<legend><span class="number">3</span>Description de la publication</legend>
-					<div class="masquable ferme">
-						<h2 class="masquable-titre"><span>+</span></h2>
+
+					<div class="masquable">
+
+						<h2 class="masquable-titre"><span>-</span></h2>
+
 						<div class="masquable-contenu">
 
-							<p><label> Type (actes de colloque, ouvrage collectif…) : </label> <input name="type2" id="type2" type="text"></p>
+
+
+							<p class="formulaire"><label> Type (actes de colloque, ouvrage collectif…) : </label> <input type="text" name="type2" id="type2"/></p>
+
 							
-							<p><label> Titre de l’ouvrage : </label> 	<input name="titre" id="titre" type="text"></p>
+
+							<p class="formulaire"><label> Titre de l’ouvrage : </label> 	<input type="text" name="titre" id="titre"/></p>
+
 							
-							<p><label> Sous la direction de : </label>	<input name="direction" id="direction" type="text"></p>
+
+							<p class="formulaire"><label> Sous la direction de : </label>	<input type="text" name="direction" id="direction"/></p>
+
 							
-							<p><label> Collaboration avec une autre université ou institution : </label> <input name="collabaration" id="collaboration" type="text"></p>
+
+							<p class="formulaire"><label> Collaboration avec une autre université ou institution : </label> <input type="text" name="collabaration" id="collaboration"/></p>
+
 							
-							<p> Nombre des contributions (attendues) : </p>
+
+							<label> Nombre des contributions (attendues) : </label>
+
 							
-							<p><label> dont Université Paris 13 : </label> <input name="nombre_contributions_p13" id="nombre_contributionsp13" type="text"></p>
+
+							<p class="formulaire"><label> dont Université Paris 13 : </label> <input type="text" name="nombre_contributions_p13" id="nombre_contributionsp13"/></p>
+
 							
-							<p><label> France : </label> <input name="nombre_contributions_fr" id="nombre_contributions_fr" type="text"></p>
+
+							<p class="formulaire"><label> France : </label> <input type="text" name="nombre_contributions_fr" id="nombre_contributions_fr"/></p>
+
 							
-							<p><label> Etranger : </label> <input name="nombre_contributions_etranger" id="nombre_contributions_etranger" type="text"></p>
+
+							<p class="formulaire"><label> Etranger : </label> <input type="text" name="nombre_contributions_etranger" id="nombre_contributions_etranger"/></p>
+
 							
-							<p><label> Doctorants : </label> <input name="nombre_contributions_doc" id="nombre_contributions_doc" type="text"></p>
+
+							<p class="formulaire"><label> Doctorants : </label> <input type="text" name="nombre_contributions_doc" id="nombre_contributions_doc"/></p>
+
 							
-							<p><label> Mode de sélection des contributions  : </label> <input name="mode_de_contribution" id="mode_de_contribution" type="text"></p>
+
+							<p class="formulaire"><label> Mode de sélection des contributions  : </label> <input type="text" name="mode_de_contribution" id="mode_de_contribution"/></p>
+
 							
-							<p> Reconnaissance de l’éditeur dans la discipline : (Document à fournir signer par la discipline)</p>
+
+							<p><strong> Reconnaissance de l’éditeur dans la discipline : (Document à fournir signer par la discipline)</strong></p>
+
 														
+
 						</div>
+
 					</div>
+
 				</fieldset>
+
 				
+
 				<fieldset>
+
 					<legend><span class="number">4</span>Financement</legend>
+
 					<!--------------------->
+
 					<div class="masquable ferme">
+
 						<h2 class="masquable-titre"><span>+</span></h2>
+
 						<div class="masquable-contenu">
 
-							<p><label>  Montant de la contribution financière demandée par l’éditeur : </label> <input name="montant_de_la_contribution_financieremontant_de_la_contribution_financiere" id="" type="text"></p>
+
+
+							<p class="formulaire"><label>  Montant de la contribution financière demandée par l’éditeur : </label> <input type="text" name="montant_de_la_contribution_financieremontant_de_la_contribution_financiere" id=""/></p>
+
 							
-							<p><label> Subvention demandée au CS : </label> <input name="subvention_demande_cs" id="subvention_demande_cs" type="text"></p>
+
+							<p class="formulaire"><label> Subvention demandée au CS : </label> <input type="text" name="subvention_demande_cs" id="subvention_demande_cs"/></p>
+
 							
-							<p><label> Co-financement : </label> <input name="Cofinancement" id="Cofinancement" type="text"></p>
+
+							<p class="formulaire"><label> Co-financement : </label> <input type="text" name="Cofinancement" id="Cofinancement"/></p>
+
 																
+
 						</div>
+
 					</div>
+
 				</fieldset>
+
+
 
 				<fieldset>
+
 					<legend><span class="number">5</span>Si la subvention est accordée par l’université souhaitez-vous : </legend>
+
 					<div class="masquable ferme">
+
 						<h2 class="masquable-titre"><span>+</span></h2>
+
 						<div class="masquable-contenu">
 
-							<p><label> - un virement au laboratoire ? : </label> <input class="radio" name="virement_au_laboratoire" value="oui" type="radio"> Oui <input class="radio" name="virement_au_laboratoire" value="non" type="radio"> Non </p>
+
+
+							<p class="formulaire"><label> - un virement au laboratoire ? : </label> <input type="radio" class="radio" name="virement_au_laboratoire" value="oui"/> Oui <input type="radio" class="radio" name="virement_au_laboratoire" value="non"/> Non </p>
+
 							
-							<p><label> - une gestion financière au BRED ? : </label> <input class="radio" name="gestion_financiere_bred" value="oui" type="radio"> Oui <input class="radio" name="gestion_financiere_bred" value="non" type="radio"> Non </p>
+
+							<p class="formulaire"><label> - une gestion financière au BRED ? : </label> <input type="radio" class="radio" name="gestion_financiere_bred" value="oui"/> Oui <input type="radio" class="radio" name="gestion_financiere_bred" value="non"/> Non </p>
+
 							
+
 						</div>
+
 					</div>
+
 				</fieldset>
+
 				
+
 				<p> Dans les deux cas, 2 exemplaires de l’ouvrage devront être déposés au BRED à l’issue de la publication. Dans le premier cas, une photocopie des factures sera également exigée. </p>
-				<p><label> Préciser de quel appui logistique vous disposez pour la publication et, en particulier, venant de votre laboratoire : </label></p>
-				<p><input name="logistique" id="logistique" type="text"></p>
+
+				<p> Préciser de quel appui logistique vous disposez pour la publication et, en particulier, venant de votre laboratoire : </p>
+
+				<p><input type="text" name="logistique" id="logistique"/></p>
+
 				
-				<br>
+
+				</br>
+
 				<h4><center>ARGUMENTAIRE AU SOUTIEN DE LA DEMANDE DE SUBVENTION </center></h4>
+
 				
-				<p>	<label><strong> Pour les actes de colloque </strong>: argumentaire de deux ou trois pages développant notamment les thématiques du colloque et les approches privilégiées pour la publication en spécifiant la liste des contributeurs et les titres des articles. (3Mo Max conseillé en PDF)</label>
-					<input name="MAX_FILE_SIZE" value="3000000" type="hidden"><input name="argument_actes" type="file">
+
+				<p><strong> Pour les actes de colloque </strong>: argumentaire de deux ou trois pages développant notamment les thématiques du colloque et les approches privilégiées pour la publication en spécifiant la liste des contributeurs et les titres des articles. (3Mo Max conseillé en PDF)
+
+					<input type="hidden" name="MAX_FILE_SIZE" value="3000000"><input type="file" name="argument_actes"/>
+
 				</p>
-				<br>
-				<p>	<label><strong> Pour un ouvrage collectif </strong>: argumentaire de deux ou trois pages spécifiant les objectifs du projet, les méthodes et les approches privilégiées, la liste des auteurs ainsi que le titre et un bref résumé des propositions de contribution à la date de la demande. (3Mo Max conseillé en PDF)</label>
-					<input name="MAX_FILE_SIZE" value="3000000" type="hidden"><input name="argument_ouvrage" type="file">
+
+				</br>
+
+				<p><strong> Pour un ouvrage collectif </strong>: argumentaire de deux ou trois pages spécifiant les objectifs du projet, les méthodes et les approches privilégiées, la liste des auteurs ainsi que le titre et un bref résumé des propositions de contribution à la date de la demande. (3Mo Max conseillé en PDF)
+
+					<input type="hidden" name="MAX_FILE_SIZE" value="3000000"><input type="file" name="argument_ouvrage"/>
+
 				</p>
+
 				
-				<p> <input name="envoyer" value="Enregistrer le dossier" type="submit"> </p>
+
+				<p> <input type="submit" name="envoyer" value="Enregistrer le dossier" /> </p>
+
+
 
 			</form>
+
 			
+
 			<form>
-				<div>	<p>	<label for="file">Chargez le formulaire que vous aurez rempli : </label>
-										<input id="file" name="file" type="file">
-									</p>
+
+				<div>	
+
+						<p>Chargez le formulaire que vous aurez rempli :
+
+										<input id="file" type="file" name="file" ></input>
+
+						</p>
+
 				</div>
-     			</form>		
+
+			</form>
+
+			
+
 			<form>
+
 				<div>	<p> Une fois que vous aurez rempli votre formulaire, appuyez sur Envoyer pour envoyer le formulaire au BRED <br>
-										<input id="boutton_envoyer" value="Envoyer le formulaire" title="Envoyer votre formulaire rempli au BRED" type="submit">
-									</p>
+
+										<input id="boutton_envoyer" type="submit" value="Envoyer le formulaire" title="Envoyer votre formulaire rempli au BRED" ></input>
+
+						</p>
+
 				</div>				
+
 			</form>		
+
+			
+
+		</div>
+
+		
+
+		
+
+		
+
+			<!---------------------------------------------------------------------------------------------------------------------------->
+
+		
+
+		
+
+		
+
+<!-- Remplacer "second text par la suite du formulaire -->
+
+		<div id="ID2" style="display:none;"><form action="index.html" method="post">
+
+				<h1>Formulaire de demande de subvention pour une manifestation scientifique</h1>
+
+			
+
+				<fieldset>
+
+					<legend><span class="numbere">1</span>Coordinateur Paris 13</legend>
+
+					<!--------------------->
+
+					<div class="masquable">
+
+						<h2 class="masquable-titre"><span>-</span></h2>
+
+						<div class="masquable-contenu">
+
+
+
+							<p>	<label for="name">Prénom : </label>			<input type="text" size="20" id="name" name="user_name">	</p>
+
+							 
+
+							<p>	<label for="mail">Nom : </label>			<input type="email" id="mail" name="user_email">			</p>
+
+							  
+
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+
+							  
+
+							<p>	<label for="name">Composante : </label>		<input type="text" id="name" name="user_name">				</p>
+
+							  
+
+							<p>	<label for="mail">Laboratoire : </label>	<input type="email" id="mail" name="user_email">			</p>
+
+							  
+
+							<p>	<label for="password">Type (actes, ouvrage) et nom de la publication : </label>
+
+																			<input type="password" id="password" name="user_password">	</p>
+
+							<p>	<label for="name">Date prévue et éditeur : </label>
+
+																			<input type="text" id="name" name="user_name">				</p>
+
+									
+
+							<p>	<label for="mail">Adresse E-mail : </label>
+
+																			<input type="email" id="mail" name="user_email">			</p>
+
+
+
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+
+									
+
+							<p>	<label>Age : </label>
+
+								<input type="radio" id="under_13" value="under_13" name="user_age">	<label for="under_13" class="light">Under 13</label>
+
+								<input type="radio" id="over_13" value="over_13" name="user_age">	<label for="over_13" class="light">13 or older</label>
+
+							</p>
+
+							
+
+						</div>
+
+					</div>
+
+				</fieldset>
+
+				
+
+				
+
+							<!------------------------------------------------------>
+
+				
+
+				
+
+				<div>
+
+					<legend><span class="numbere">2</span>Your profile</legend>
+
+					<div class="masquable ferme">
+
+						<h2 class="masquable-titre"><span>+</span></h2>
+
+						<div class="masquable-contenu">
+
+
+
+							<p>	<label for="name">Prénom : </label>			<input type="text" size="20" id="name" name="user_name">	</p>
+
+							 
+
+							<p>	<label for="mail">Nom : </label>			<input type="email" id="mail" name="user_email">			</p>
+
+							  
+
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+
+							  
+
+							<p>	<label for="name">Composante : </label>		<input type="text" id="name" name="user_name">				</p>
+
+							  
+
+							<p>	<label for="mail">Laboratoire : </label>	<input type="email" id="mail" name="user_email">			</p>
+
+							  
+
+							<p>	<label for="password">Type (actes, ouvrage) et nom de la publication : </label>
+
+																			<input type="password" id="password" name="user_password">	</p>
+
+							<p>	<label for="name">Date prévue et éditeur : </label>
+
+																			<input type="text" id="name" name="user_name">				</p>
+
+									
+
+							<p>	<label for="mail">Adresse E-mail : </label>
+
+																			<input type="email" id="mail" name="user_email">			</p>
+
+
+
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+
+									
+
+							<p>	<label>Age : </label>
+
+								<input type="radio" id="under_13" value="under_13" name="user_age">	<label for="under_13" class="light">Under 13</label>
+
+								<input type="radio" id="over_13" value="over_13" name="user_age">	<label for="over_13" class="light">13 or older</label>
+
+							</p>
+
+							
+
+						</div>
+
+					</div>
+
+
+
+					<legend><span class="numbere">2</span>Your profile</legend>
+
+					<div class="masquable ferme">
+
+						<h2 class="masquable-titre"><span>+</span></h2>
+
+						<div class="masquable-contenu">
+
+
+
+							<p>	<label for="name">Prénom : </label>			<input type="text" size="20" id="name" name="user_name">	</p>
+
+							 
+
+							<p>	<label for="mail">Nom : </label>			<input type="email" id="mail" name="user_email">			</p>
+
+							  
+
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+
+							  
+
+							<p>	<label for="name">Composante : </label>		<input type="text" id="name" name="user_name">				</p>
+
+							  
+
+							<p>	<label for="mail">Laboratoire : </label>	<input type="email" id="mail" name="user_email">			</p>
+
+							  
+
+							<p>	<label for="password">Type (actes, ouvrage) et nom de la publication : </label>
+
+																			<input type="password" id="password" name="user_password">	</p>
+
+							<p>	<label for="name">Date prévue et éditeur : </label>
+
+																			<input type="text" id="name" name="user_name">				</p>
+
+									
+
+							<p>	<label for="mail">Adresse E-mail : </label>
+
+																			<input type="email" id="mail" name="user_email">			</p>
+
+
+
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+
+									
+
+							<p>	<label>Age : </label>
+
+								<input type="radio" id="under_13" value="under_13" name="user_age">	<label for="under_13" class="light">Under 13</label>
+
+								<input type="radio" id="over_13" value="over_13" name="user_age">	<label for="over_13" class="light">13 or older</label>
+
+							</p>
+
+							
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+				<div class="but">
+
+					<button type="submit" class="but2">Sign Up</button>
+
+				</div>
+
+			</form>	
 			
 		</div>
 		
