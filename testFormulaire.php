@@ -57,7 +57,7 @@
 
 		<hr id="grdebarre" width="1020px">
 
-		<div id="ID1">
+	<div id="ID1">
 
 			<form action="index.html" method="post">
 
@@ -619,134 +619,9 @@
 
 				</div>
 
-			</form>	
-			
-		</div>
-		
-		
-		
-			<!---------------------------------------------------------------------------------------------------------------------------->
-		
-		
-		
-<!-- Remplacer "second text par la suite du formulaire -->
-		<div id="ID2" style="display:none;"><form action="index.html" method="post">
-				<h1>Formulaire de demande de subvention pour une manifestation scientifique</h1>
-			
-				<fieldset>
-					<legend><span class="numbere">1</span>Coordinateur Paris 13</legend>
-					<!--------------------->
-					<div class="masquable">
-						<h2 class="masquable-titre"><span>-</span></h2>
-						<div class="masquable-contenu">
-
-							<p>	<label for="name">Prénom : </label>			<input size="20" id="name" name="user_name" type="text">	</p>
-							 
-							<p>	<label for="mail">Nom : </label>			<input id="mail" name="user_email" type="email">			</p>
-							  
-							<p>	<label for="password">Qualité : </label>	<input id="password" name="user_password" type="password">	</p>
-							  
-							<p>	<label for="name">Composante : </label>		<input id="name" name="user_name" type="text">				</p>
-							  
-							<p>	<label for="mail">Laboratoire : </label>	<input id="mail" name="user_email" type="email">			</p>
-							  
-							<p>	<label for="password">Type (actes, ouvrage) et nom de la publication : </label>
-																			<input id="password" name="user_password" type="password">	</p>
-							<p>	<label for="name">Date prévue et éditeur : </label>
-																			<input id="name" name="user_name" type="text">				</p>
-									
-							<p>	<label for="mail">Adresse E-mail : </label>
-																			<input id="mail" name="user_email" type="email">			</p>
-
-							<p>	<label for="password">Qualité : </label>	<input id="password" name="user_password" type="password">	</p>
-									
-							<p>	<label>Age : </label>
-								<input id="under_13" value="under_13" name="user_age" type="radio">	<label for="under_13" class="light">Under 13</label>
-								<input id="over_13" value="over_13" name="user_age" type="radio">	<label for="over_13" class="light">13 or older</label>
-							</p>
-							
-						</div>
-					</div>
-				</fieldset>
-				
-				
-							<!------------------------------------------------------>
-				
-				
-				<div>
-					<legend><span class="numbere">2</span>Your profile</legend>
-					<div class="masquable ferme">
-						<h2 class="masquable-titre"><span>+</span></h2>
-						<div class="masquable-contenu">
-
-							<p>	<label for="name">Prénom : </label>			<input size="20" id="name" name="user_name" type="text">	</p>
-							 
-							<p>	<label for="mail">Nom : </label>			<input id="mail" name="user_email" type="email">			</p>
-							  
-							<p>	<label for="password">Qualité : </label>	<input id="password" name="user_password" type="password">	</p>
-							  
-							<p>	<label for="name">Composante : </label>		<input id="name" name="user_name" type="text">				</p>
-							  
-							<p>	<label for="mail">Laboratoire : </label>	<input id="mail" name="user_email" type="email">			</p>
-							  
-							<p>	<label for="password">Type (actes, ouvrage) et nom de la publication : </label>
-																			<input id="password" name="user_password" type="password">	</p>
-							<p>	<label for="name">Date prévue et éditeur : </label>
-																			<input id="name" name="user_name" type="text">				</p>
-									
-							<p>	<label for="mail">Adresse E-mail : </label>
-																			<input id="mail" name="user_email" type="email">			</p>
-
-							<p>	<label for="password">Qualité : </label>	<input id="password" name="user_password" type="password">	</p>
-									
-							<p>	<label>Age : </label>
-								<input id="under_13" value="under_13" name="user_age" type="radio">	<label for="under_13" class="light">Under 13</label>
-								<input id="over_13" value="over_13" name="user_age" type="radio">	<label for="over_13" class="light">13 or older</label>
-							</p>
-							
-						</div>
-					</div>
-
-					<legend><span class="numbere">2</span>Your profile</legend>
-					<div class="masquable ferme">
-						<h2 class="masquable-titre"><span>+</span></h2>
-						<div class="masquable-contenu">
-
-							<p>	<label for="name">Prénom : </label>			<input size="20" id="name" name="user_name" type="text">	</p>
-							 
-							<p>	<label for="mail">Nom : </label>			<input id="mail" name="user_email" type="email">			</p>
-							  
-							<p>	<label for="password">Qualité : </label>	<input id="password" name="user_password" type="password">	</p>
-							  
-							<p>	<label for="name">Composante : </label>		<input id="name" name="user_name" type="text">				</p>
-							  
-							<p>	<label for="mail">Laboratoire : </label>	<input id="mail" name="user_email" type="email">			</p>
-							  
-							<p>	<label for="password">Type (actes, ouvrage) et nom de la publication : </label>
-																			<input id="password" name="user_password" type="password">	</p>
-							<p>	<label for="name">Date prévue et éditeur : </label>
-																			<input id="name" name="user_name" type="text">				</p>
-									
-							<p>	<label for="mail">Adresse E-mail : </label>
-																			<input id="mail" name="user_email" type="email">			</p>
-
-							<p>	<label for="password">Qualité : </label>	<input id="password" name="user_password" type="password">	</p>
-									
-							<p>	<label>Age : </label>
-								<input id="under_13" value="under_13" name="user_age" type="radio">	<label for="under_13" class="light">Under 13</label>
-								<input id="over_13" value="over_13" name="user_age" type="radio">	<label for="over_13" class="light">13 or older</label>
-							</p>
-							
-						</div>
-					</div>
-				</div>
-				
-				<div class="but">
-					<button type="submit" class="but2">Sign Up</button>
-				</div>
 			</form>
-		</div>
 
+		</div>
 
       
 
