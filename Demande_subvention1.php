@@ -59,7 +59,6 @@ require('essaiCAS.php');
 		
 		
 		
-		<hr id = "grdebarre" width=1080px ></br>
 		
 		
 	</div> <!-- Fin div bordereau !-->
