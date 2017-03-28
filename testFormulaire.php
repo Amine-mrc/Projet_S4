@@ -26,7 +26,7 @@ require('essaiCAS.php');
   
    <body>
 	
-	<div class="bordereau">
+	
 		<img id="logo" src="logoparis13.png" alt="Logo iut" height="75" width="170" align="right"  >
 		
 		<ul id="menu">
