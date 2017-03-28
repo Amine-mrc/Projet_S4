@@ -484,180 +484,203 @@ background-color: #ff5555;
 /***********************************************************************************/
 
 
+
+
+
 div.gauche {
+
 	width: 50%;
+
 	float: left;
+
 }
+
+
+
 
 
 div.droite {
+
 	width: 50%;
+
 	float: right;
+
+
+
 }
+
+
+
 
 
 /***********************************************************************************/
 
+
+
 .masquable
+
 {
+
 	/* Par défaut bordure complète */
+
 	border: 1px solid #aaa;
+
 	/* Sert uniquement à créer un "containing élément" pour pouvoir placer le titre avec position: absolute  */
+
 	position: relative;
+
 	margin: 10px;
+
 }
+
+
 
 .masquable.ferme
+
 {
+
 	/* La boite ferme n'a que border-top (sinon trait épais) */
+
 	border: none;
+
 	border-top: 1px solid #aaa;
+
 }
+
+
 
 .masquable-titre 
+
 {
+
 	/* Permet de placer le titre dans .masquable (qui est "containing bloc") */
+
 	position: absolute;
+
 	font-size: 14px;
+
 	/* coordonnées relatives au "containing bloc" */
+
 	top: -11px;
+
 	left: 20px;
+
 	/* On ne veut pas que le titre fasse toute la ligne */
+
 	display: inline-block;
+
 	padding-left: 1em;
+
 	padding-right: 1em;
+
 	background-color: #f4f7f8;
+
 	cursor: pointer;
+
 	margin: 0;
+
 }
 
+
+
 /* Quand c'est ouvert les bordures font bouger légèrement le titre. Il faut compenser de 1px  */
+
 .masquable.ferme>.masquable-titre
+
 {
+
 	left: 21px;	
+
 }
+
+
+
 
 
 /* La petite boite avec "+" ou "-" */
+
 .masquable-titre span
+
 {
+
 	border: 1px solid #aaa;
+
 	display: inline-block;
+
 	width: 16px;
+
 	height: 16px;
+
 	text-align: center;
+
 	margin-top: 3px;
+
 }
 
+
+
 .masquable-titre:hover span
+
 {
+
 	background-color: #ffc;
+
 }
+
+
+
 
 
 .masquable-contenu
+
 {
+
 	padding: 1em;
+
 	overflow: hidden;
+
 }
 
+
+
 .masquable.ferme .masquable-contenu 
+
 {
+
 	/* Quand c'est ferme , on cache le contenu. */
+
 	/* On ne peut pas se contenter de le faire dans le JS... */
+
 	/* car on veut pouvoir avoir des parties fermées dès l'affichage initial */
+
 	/* (qui se fait en HTML+CSS seuls) */
+
 	display: none;
+
 }
+
+
+
 
 
 /* Éviter que le contenu ne commence par de l'espace vide */
+
 .masquable-contenu>*:first-child
+
 {
+
 	margin-top: 0;
+
 }
+
+
 
 /* Éviter que le contenu ne finisse par de l'espace vide */
+
 .masquable-contenu>*:last-child
+
 {
+
 	margin-bottom: 0;
-}
 
-
-
-#boutton_envoyer{
-        border: 2px solid transparent;
-  	background: #49A3D0;
-  	color: white;
-  	font-size: 16px;
-  	line-height: 25px;
- 	padding: 10px 0;
- 	text-decoration: none;
- 	border-radius: 3px;
- 	box-shadow: none;
- 	display: block;
-	width: 250px;
-	/*margin: 0 auto;*/
-         margin-left : 400px;
-
-
-}
-
-/*Footer*/
-
-#grdebarre2{
-	margin-left : 30px;
-	margin-top : 275px;
-}
-
-
-footer
-{
-	
-	width : 1104px;
-        height: 120px;
-        clear: both;
-}
-
-
-#menu-footer
-{
-	text-align : center;
-	height : 0px;
-	margin-top : 40	px;
-
-}
-
-
-
-#menu-footer a:hover
-{
-	color: #DAA520;
-	font-weight: bold;
-}
-
-#menu-footer a.active,
-
-#menu-footer a
-{
-	color: black;
-}
-	
-#menu-footer #liensfooter
-{
-	width : 12%;
-	margin-top : 25px;
-	margin-left : 475px;
-}width : 10%;
-
-
-
-#gauche {
-    float:left;
-
-}
-#droite {
-margin-top:-805px;
-
-float:right;
 }
