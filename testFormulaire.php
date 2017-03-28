@@ -138,7 +138,7 @@ require('essaiCAS.php');
 
 					
 
-					<h4><center> DEMANDE DE SUBVENTION POUR PUBLICATION </h4></center>
+					<h4><center> DEMANDE DE SUBVENTION POUR PUBLICATION </center></h4>
 
 					
 
