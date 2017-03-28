@@ -7,6 +7,16 @@
 body {
   font-family: 'Nunito', sans-serif;
   color: #384047;
+	
+    	background-color: #E8EBED;
+
+   	background-image: url("fond_logo.png"), url("fond_trait.png");
+
+	background-attachment: fixed, fixed;
+
+	background-position: center -90px, 0px 0px;
+
+	background-repeat: no-repeat, repeat;
 }
 
 #bout {
