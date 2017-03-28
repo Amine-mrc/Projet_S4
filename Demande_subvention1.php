@@ -57,10 +57,7 @@ require('essaiCAS.php');
 		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
 
 		
-		
-		
-		
-		
+	
 	</div> <!-- Fin div bordereau !-->
    
 
