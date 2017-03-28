@@ -1,32 +1,19 @@
-<html><head></head><body>﻿
-
-
-
-
-  
-
+<?php session_start(); 
+require('essaiCAS.php');
+?>﻿
+<!DOCTYPE html>
+<html>
+  <head>
     <meta charset="utf-8">
-
-    <title>Demande de subventions</title>
-
-
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Demande de subvention pour publication</title>
-        <link rel="stylesheet" href="normalize2.css">
-       <!-- <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="normalize.js"></script>
-    
-
+    <title>Accueil</title>
+	<link rel="stylesheet" href="accueil.css">
+	
+  </head>
   
-
-   
-
-
-
+   <body>
+	
 	<div class="bordereau">
-		<img id="logo" src="logoparis13.png" alt="Logo iut" height="75" width="170" align="right">
+		<img id="logo" src="logoparis13.png" alt="Logo iut" height="75" width="170" align="right"  >
 		
 		<ul id="menu">
         <li><a href="accueil.php">Accueil</a></li>
@@ -41,23 +28,35 @@
                 </ul> </li>
                         <li><a href="https://www.univ-paris13.fr/bred/">En savoir plus</a></li>
 		</ul>
-       		 <p> Demande|<a href="?logout=">Déconnexion</a> </p>
-					
+        
+		
+		
+		
+		<p> Accueil | <a href="?logout=">Déconnexion</a> </p>
+		<?php 
+			if (isset($_REQUEST['logout'])) {
+ 				phpCAS::logout();
+			}	
+		?>
+			
 
 
-		<hr width="150px" align="left"> 
+		<hr width=150px align=left > 
 	
-		<p id="pgeX">Identifiant utilisateur : 11402470 </p>
+		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
 
 		
-	
+		
+		
+		<hr id = "grdebarre" width=1080px ></br>
+		
 	</div> <!-- Fin div bordereau !-->
-   
+	
+	
 
 
-		<hr id="grdebarre" width="1020px">
 
-	<div id="ID1">
+<div id="ID1">
 
 			<form action="index.html" method="post">
 
@@ -623,54 +622,37 @@
 
 		</div>
 
-      
 
 
-  <!-- Footer !--> 
-
-	<hr id="grdebarre" width="1020px">
 
 	
-
+	
+	
+	
+	
+	
+	<!-- Footer !-->
+	<hr id = "grdebarre2" width=1020px  >
+	
 	<footer>
-
 				<ul id="menu-footer">
-
-					<a href="Contact.html" title="Contact">Contact</a>  &nbsp; &nbsp;
-
-					<a href="" title="Mentions légales">Mentions légales</a>  &nbsp; &nbsp; 
-
+					<a href="" title="Contact">Contact</a>
+					<a href="" title="Mentions légales">Mentions légales</a>  
 					<a href="" title="Connexion">Connexion</a>
-
 					<div id="liensfooter">	
-
-						<a title="Facebook" href="https://www.facebook.com/pg/univparis13/about/?ref=page_internal"><img src="facebook.png" width="25%"></a>
-
-						<a title="Twitter" href="https://twitter.com/?lang=fr"><img src="twitter.png" width="25%"></a>
-
-						<a title="Youtube" href="https://www.youtube.com/?hl=fr&amp;gl=FR"><img src="youtube.png" width="25%"></a>
-
-						<a title="Google" href="https://www.google.fr/"><img src="google.png" width="25%"></a>
-
+						<a title="Facebook" href="https://www.facebook.com/pg/univparis13/about/?ref=page_internal"><img width="25%" src="facebook.png"/></a>
+						<a title="Twitter" href="https://twitter.com/?lang=fr"><img width="25%" src="twitter.png"/></a>
+						<a title="Youtube" href="https://www.youtube.com/?hl=fr&gl=FR"><img width="25%" src="youtube.png"/></a>
+						<a title="Google" href="https://www.google.fr/"><img width="25%" src="google.png"/></a>
 					</div>
-
 				</ul>
-
 				
-
 	</footer>
-
 		
-
 	
-
 	
-
 	
-
-   
-
+   </body>
 
 
-
-</body></html>
+</html>
