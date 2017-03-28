@@ -819,6 +819,27 @@ div.droite {
 
 /***********************************************************************************/
 
+#boutton_envoyer{
+
+        border: 2px solid transparent;
+  	background: #49A3D0;
+  	color: white;
+  	font-size: 16px;
+  	line-height: 25px;
+ 	padding: 10px 0;
+ 	text-decoration: none;
+ 	border-radius: 3px;
+ 	box-shadow: none;
+ 	display: block;
+	width: 250px;
+	margin-left : 400px;
+
+
+
+
+
+}
+
 
 
 .masquable
