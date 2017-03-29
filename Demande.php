@@ -99,7 +99,7 @@ La subvention accordée pourra aller de 1000 € à 2000 €, suivant l’import
 	</div> 
 	
 	
-	div id="par">
+	<div id="par">
 
                     <strong>Instruction des demandes </strong> </br> </br>
 
