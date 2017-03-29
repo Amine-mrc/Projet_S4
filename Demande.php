@@ -39,10 +39,7 @@
 		</ul>
         
 		
-		<div id="searchbar"> <!-- Barre de recherche !-->
-			<form action="" class="formulaire">
-				<input class="champ" type="text" value="     Recherche..."/>
-                <input class="bouton" type="button" value=" " />
+		
             </form>
         </div>
 		
@@ -50,12 +47,7 @@
 		<hr width=150px align=left > 
 		<p id="pgeX"> Bienvenue Mr <?php echo $_SESSION['login'] ?></p>
 		
-		<div id="boutondeconnexion" >
-			<form action="" class="deconnexion" >
-				<input class="bouton" type="button" name="deconnexion" value="" onclick="self.location.href='deconnexion.php'"/>
-				
-            </form> 
-		</div>
+		
 		
 		<hr id = "grdebarre" width=1080px >
 		
