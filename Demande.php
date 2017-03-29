@@ -61,7 +61,7 @@ require('essaiCAS.php');
 		 <strong> Bienvenue sur la page de demande de subvention </strong> </br> </br>
 
 Pour permettre à la collectivité d’avoir une lisibilité encore plus importante des aides consenties aux associations, les dossiers de demande de subvention doivent impérativement être complets et parvenir au Bureau de la Recherche et des Etudes Doctorale. Vous pouvez télécharger le dossier complet de demande de subvention et la note d'accompagnement dans cette page.</br> </br> </br>
-
+</div>
                     <strong> Procedure </strong> </br> </br>
 
 
