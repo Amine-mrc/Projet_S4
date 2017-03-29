@@ -339,11 +339,47 @@ body {
  
 
 }
+#blocchiffres{
+
+	width : 800px;
+
+	height :300px;
+
+	border : 2px solid black;
+
+	margin-left : 175px;
+
+	background-color : white;
+
+
+
+}
+
+
+
+#titrebloc{
+
+	margin-top : -1px;
+
+	text-align : center;	
+
+	border-bottom : 1px solid black;
+
+	font-size : 17px;
+
+}
+
+
+
+/*Bloc informations du site */
+
+
+
 #blocinfosite{
 
 	width : 300px;
 
-	height :750px;
+	height :250px;
 
 	border : 2px solid black;
 
@@ -356,6 +392,10 @@ body {
 
 
 }
+
+
+
+
 
 
 
