@@ -233,8 +233,7 @@ body {
 
 #menu li.active
 {
-    border-bottom: 1px solid #fff;
-    background-color: #06B4E4;
+    background-color: #00FF00;
 }
 
 .bordereau p{
