@@ -85,7 +85,10 @@ require('essaiCAS.php');
 				<ul id="menu-footer">
 					<a href="" title="Contact">Contact</a>
 					<a href="" title="Mentions légales">Mentions légales</a>  
-					<a href="" title="Connexion">Connexion</a>
+					<a href="?logout" title="Deconnexion">Déconnexion</a>
+					
+			
+		</ul>
 					<div id="liensfooter">	
 						<a title="Facebook" href="https://www.facebook.com/pg/univparis13/about/?ref=page_internal"><img width="25%" src="facebook.png"/></a>
 						<a title="Twitter" href="https://twitter.com/?lang=fr"><img width="25%" src="twitter.png"/></a>
