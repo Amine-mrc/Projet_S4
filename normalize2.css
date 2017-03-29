@@ -24,7 +24,35 @@ body {
 
 
 /*************************** Accueil ***************************/
+.par{
 
+     
+
+  
+
+       background: #F3F2ED;
+
+       border: 4px double white;
+
+       padding: 0 20px;
+
+       margin: 10px 0 20px 0;
+
+       margin-right : 150px;
+
+       margin-bottom : 20px;
+
+       font-family: Georgia,serif;
+
+       border-radius: 0px;
+
+      -moz-border-radius: 10px;
+
+      -webkit-border-radius: 10px;
+
+ 
+
+}
 
 
 /* Bordereau */
