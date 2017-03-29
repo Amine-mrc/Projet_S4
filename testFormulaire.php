@@ -64,7 +64,7 @@ require('essaiCAS.php');
 	
 
 	if(!(isset($_POST["nom"]) and isset($_POST["prenom"]) and isset($_POST["qualite"]) and isset($_POST["composante"]) and isset($_POST["laboratoire"]) and isset($_POST["tel"]) and isset($_POST["mail"]) ))
-		echo "erreur";
+		echo " ";
 	else 
 	{
 				
