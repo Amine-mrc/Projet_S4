@@ -520,3 +520,80 @@ div.droite {
 	margin-bottom: 0;
 
 }
+footer
+
+{
+
+	
+
+	width : 1104px;
+
+        height: 120px;
+
+        clear: both;
+
+}
+
+
+
+
+
+
+
+#menu-footer
+
+{
+
+	text-align : center;
+
+	height : 0px;
+
+	margin-top : 40	px;
+
+
+
+}
+
+
+
+
+
+
+
+#menu-footer a:hover
+
+{
+
+	color: #DAA520;
+
+	font-weight: bold;
+
+}
+
+
+
+#menu-footer a.active,
+
+
+
+#menu-footer a
+
+{
+
+	color: black;
+
+}
+
+	
+
+#menu-footer #liensfooter
+
+{
+
+	width : 12%;
+
+	margin-top : 25px;
+
+	margin-left : 475px;
+
+}width : 10%;
