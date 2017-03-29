@@ -163,7 +163,7 @@ body {
 
 #menu li:first-child:hover, #menu li:first-child li:hover{
 
-	background:red;
+	background:#06B4E4;
 
 }
 
@@ -231,7 +231,7 @@ body {
 
 }
 
-#menu li.active
+#menu li.active a
 {
     background-color: #00FF00;
 }
