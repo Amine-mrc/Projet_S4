@@ -99,7 +99,29 @@ La subvention accordée pourra aller de 1000 € à 2000 €, suivant l’import
 	</div> 
 	
 	
-	
+	div id="par">
+
+                    <strong>Instruction des demandes </strong> </br> </br>
+
+
+Elle sera faite par l’un des membres du bureau de la Commission Recherche chargé de cette tâche. Le bureau fera une proposition de subvention ou de rejet, ou une demande de complément d’information ou de révision. La Commission Recherche sera informé au fur et à mesure des demandes instruites par le bureau et il sera consulté en cas de demandes posant des problèmes spécifiques.
+
+
+
+ </br> </br> </br>
+       </div>
+            
+                 	<div id="par">
+   
+                    <strong> Versement et justification</strong> </br> </br>
+
+
+
+Le versement de la subvention pourra être faite directement au laboratoire, si celui-ci le souhaite. Dans ce cas, la justification, sous la forme d’un court bilan scientifique et financier, devra intervenir dans un délai maximum de deux mois après le colloque ou congrès. En cas d’annulation de la manifestation, ou en absence de justification, la subvention devra être restituée.
+
+
+ </br> </br> </br> 
+</div>
 	
 	
 	
