@@ -231,6 +231,11 @@ body {
 
 }
 
+#menu li.active
+{
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
 
 .bordereau p{
 
