@@ -38,7 +38,6 @@ require('essaiCAS.php');
 		
 		
 		
-		<p> Accueil </p>
 		
 			
 
