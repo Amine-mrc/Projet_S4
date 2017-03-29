@@ -62,20 +62,26 @@ require('essaiCAS.php');
 
 Pour permettre à la collectivité d’avoir une lisibilité encore plus importante des aides consenties aux associations, les dossiers de demande de subvention doivent impérativement être complets et parvenir au Bureau de la Recherche et des Etudes Doctorale. Vous pouvez télécharger le dossier complet de demande de subvention et la note d'accompagnement dans cette page.</br> </br> </br>
 </div>
+	<div id="par">
+
                     <strong> Procedure </strong> </br> </br>
 
 
 
 Selon les règles fixées par la Commission Recherche du 8 avril 2008, la procédure s’effectuera tout au long de l’année, l’appel d’offres étant permanent. Une révision du formulaire est prévue afin que les demandes spécifient bien les éléments d’information nécessaires pour renseigner les critères ci-dessous. En attendant cette révision, l’ancien formulaire doit être employé. Les dossiers seront transmis au BRED par les composantes, par voie électronique ou papier, au plus tard 2 mois avant la date de la manifestation. Les composantes devront contrôler la qualité des demandes transmises et leur conformité par rapport à l’appel d’offre et elles indiqueront une appréciation (très favorable ou favorable).
  </br> </br> </br>
-                   
-                    
+       </div>
+            
+                 	<div id="par">
+   
                     <strong> Critères de sélection </strong> </br> </br>
 
 
 
 Les projets ne seront recevables que si au moins un membre du comité d’organisation et si au moins un des orateurs du colloque ou congrès appartiennent à un laboratoire reconnu de l’université. Le demandeur s’engagera à ce que l’Université Paris 13 soit mentionnée dans tous les documents officiels (annonces, affiches, programme, actes…). Enfin, le laboratoire concerné devra également s’engager sur son implication financière et/ou logistique, attestée par une lettre du directeur, dans l’organisation de la manifestation. La stricte conformité à ces deux critères et ces deux engagements, constatée par le bureau de la CR, entraînera une décision de principe de financement.
  </br> </br> </br> 
+</div>
+                 	<div id="par">
 
                      <strong>                             Montant du financement </strong> </br> </br>
 
