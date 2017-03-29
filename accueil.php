@@ -36,11 +36,7 @@ require('essaiCAS.php');
 		</ul>
         
 		
-		
-		
-		<p> Accueil </p>
-		
-			
+	
 
 
 		<hr width=150px align=left > 
@@ -50,7 +46,6 @@ require('essaiCAS.php');
 		
 		
 		
-		<hr id = "grdebarre" width=1080px ></br>
 		
 	</div> <!-- Fin div bordereau !-->
 	
