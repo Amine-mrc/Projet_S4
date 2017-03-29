@@ -1,5 +1,6 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
+		
 
 <html>
 
@@ -76,7 +77,7 @@
 
 	try
 	{
-		$bd = new PDO('mysql:host=localhost;dbname=testphp', 'root', '');
+		$bd = new PDO('mysql:host=localhost;dbname=subventions', 'adminsubventions', '2dlhtJW6-');
 	}
 	catch (Exception $e)
 	{
