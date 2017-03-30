@@ -281,18 +281,17 @@ require('essaiCAS.php');
 			
 
 
-			<hr width=150px align=left > 
+		<hr width=400px align=left > 
 
 		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
-		<hr width=150px align=left >
+		<hr width=400px align=left >
 		
-		<p><?php 
+		<p> n° de la demande : <?php 
 			
-			$sql = 'SELECT max(id_publication) from publication';
-				$req = $bd->prepare($sql);
-				$req->execute();
-				$resultat = $req->fetch(PDO::FETCH_NUM);
-				echo "n° de la demande : ".(int)$resultat[0];
+			$req = $bd->prepare('SELECT max(id_publication) from publication');
+			$req->execute();
+			$resultat = $req->fetch(PDE::FETCH_ASSOC);
+			echo $resultat
 		?> </p> 
 		
 		
@@ -305,7 +304,7 @@ require('essaiCAS.php');
 
 <div id="ID1">
 
-			<form action="Demande_subvention1.php" method="post">
+			<form action="testFormulaire.php" method="post">
 
 				<h1>Formulaire de demande de subvention pour publication d’actes de colloque ou d’ouvrages thematiques collectifs</h1>
 
@@ -351,6 +350,9 @@ require('essaiCAS.php');
 
 									<p class="formulaire"><label> Téléphone : </label>	<input type="text" placeholder="ex:0666666666" autofocus required pattern="(\d){10}" title="ex:0666666666" name="tel_co" id="tel"/></p>
 									
+
+									<p class="formulaire"><label> Type (actes, ouvrage) et nom de la publication : </label>	<input type="text" name="tel_co" id="Type"/></p>
+
 								
 
 							</div>
