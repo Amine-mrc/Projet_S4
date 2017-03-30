@@ -305,7 +305,7 @@ require('essaiCAS.php');
 
 <div id="ID1">
 
-			<form action="testFormulaire.php" method="post">
+			<form action="Demande_subvention1.php" method="post">
 
 				<h1>Formulaire de demande de subvention pour publication d’actes de colloque ou d’ouvrages thematiques collectifs</h1>
 
