@@ -538,9 +538,7 @@ require('essaiCAS.php');
 
 				<p> Préciser de quel appui logistique vous disposez pour la publication et, en particulier, venant de votre laboratoire : </p>
 
-				<p><input type="text" name="logistique" id="logistique"/></p>
-
-				
+				<textarea name="logistique" wrap="off" cols="30" rows="5"  id="logistique"/></textarea>
 
 				</br>
 
