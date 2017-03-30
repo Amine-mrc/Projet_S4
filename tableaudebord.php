@@ -68,7 +68,7 @@ require('essaiCAS.php');
 		<tbody class="table-hover">
 			<tr>
 				<td class="text-left">03/02/2017</td>
-				<td class="text-left">00432543</td>
+				<td class="text-left">n°00432543</td>
 				<td class="text-left">Actes de colloques</td>
 				<td class="text-left">En attente du BRED</td>
 				<td class="text-left"></td>
@@ -77,7 +77,7 @@ require('essaiCAS.php');
 			
 			<tr>
 				<td class="text-left">14/11/2016</td>
-				<td class="text-left">00402344</td>
+				<td class="text-left">n°00402344</td>
 				<td class="text-left">Manifestation scientifique</td>
 				<td class="text-left">En attente d'informations</td>
 				<td class="text-left">A joindre : argumentaire                   <input id="file" type="file" name="file" value="toto" ></input> </td>
@@ -86,7 +86,7 @@ require('essaiCAS.php');
 
 			<tr>
 				<td class="text-left">05/05/2016</td>
-				<td class="text-left">00367876</td>
+				<td class="text-left">n°00367876</td>
 				<td class="text-left">Manifestation scientifique</td>
 				<td class="text-left">Validé par le BRED</td>
 				<td class="text-left">Dossier complet</td>
