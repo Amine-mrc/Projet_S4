@@ -182,6 +182,11 @@ body {
 }
 
 
+#menu li:last-child(4):hover, #menu li:last-child li:hover{ /* n°4*/
+
+	background:#06B4E4;
+
+}
 
 /* les a href */
 
