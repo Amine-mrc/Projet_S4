@@ -286,13 +286,6 @@ require('essaiCAS.php');
 		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
 		<hr width=150px align=left >
 		
-		<p> n° de la demande : <?php 
-			
-			$req = $bd->prepare('SELECT id_publication from publication');
-			$req->execute();
-			$resultat = $req->fetch(PDE::FETCH_ASSOC);
-			echo $resultat;
-		?> </p> 
 		
 		
 		<hr id = "grdebarre" width=1080px >
