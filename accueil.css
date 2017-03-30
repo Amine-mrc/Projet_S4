@@ -231,7 +231,7 @@ body {
 
 }
 
-#menu li#active2
+#menu li#active2 a
 {
     background-color: #FF8C00;
 }
