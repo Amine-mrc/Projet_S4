@@ -38,9 +38,9 @@ require('essaiCAS.php');
         
 		
 		
-		<p> Tableau de bord </p>
 		<hr width=150px align=left > 
-		<p id="pgeX"> Bienvenue Mr <?php echo $_SESSION['login'] ?></p>
+		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
+		<hr width=150px align=left > 
 		
 		
 		
