@@ -235,6 +235,11 @@ body {
 {
     background-color: #FF8C00;
     border-radius:8px 8px 0 0;
+	-moz-transition: .8s all .3s;
+
+	-webkit-transition: .8s all .3s;
+
+	transition: .8s all .3s;
 }
 
 .bordereau p{
