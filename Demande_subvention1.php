@@ -288,10 +288,11 @@ require('essaiCAS.php');
 		
 		<p> n° de la demande : <?php 
 			
-			$req = $bd->prepare('SELECT max(id_publication) from publication');
-			$req->execute();
-			$resultat = $req->fetch(PDE::FETCH_NUM);
-			echo $resultat[0];
+			$sql = 'SELECT max(id_publication) from publication';
+				$req = $bd->prepare($sql);
+				$req->execute();
+				$resultat = $req->fetch(PDO::FETCH_NUM);
+				echo "n° de la demande : ".(int)$resultat[0];
 		?> </p> 
 		
 		
