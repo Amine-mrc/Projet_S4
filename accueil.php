@@ -44,7 +44,7 @@ require('essaiCAS.php');
 		<hr width=150px align=left > 
 		<p> n° de la demande : <?php 
 			
-			$req = $bd->prepare('SELECT id_publication from financement');
+			$req = $bd->prepare('SELECT id_publication from publication');
 			$req->execute();
 			$resultat = $req->fetch(PDE::FETCH_ASSOC);
 			echo $resultat;
