@@ -351,9 +351,6 @@ require('essaiCAS.php');
 
 									<p class="formulaire"><label> Téléphone : </label>	<input type="text" placeholder="ex:0666666666" autofocus required pattern="(\d){10}" title="ex:0666666666" name="tel_co" id="tel"/></p>
 									
-
-									<p class="formulaire"><label> Type (actes, ouvrage) et nom de la publication : </label>	<input type="text" name="tel_co" id="Type"/></p>
-
 								
 
 							</div>
