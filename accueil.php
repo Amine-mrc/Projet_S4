@@ -29,7 +29,7 @@ require('essaiCAS.php');
                         
                 </ul> </li>
                         <li><a href="https://www.univ-paris13.fr/bred/">En savoir plus</a></li>
-			<li><a href="?logout=" onclick="document.location.href="https://www-info.iutv.univ-paris13.fr/Subventions/Projet_S4/accueil.php>Déconnexion </a></li>
+			<li><a href="?logout=">Déconnexion </a></li>
 			<?php 
 				if (isset($_REQUEST['logout'])) {
  					phpCAS::logout();
