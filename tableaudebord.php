@@ -67,6 +67,8 @@ require('essaiCAS.php');
 
 		<tbody class="table-hover">
 			<tr>
+				<td class="text-left">03/02/2017</td>
+				<td class="text-left">00432543</td>
 				<td class="text-left">Actes de colloques</td>
 				<td class="text-left">En attente du BRED</td>
 				<td class="text-left"></td>
