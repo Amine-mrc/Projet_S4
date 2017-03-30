@@ -286,7 +286,7 @@ require('essaiCAS.php');
 		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
 		<hr width=150px align=left >
 		
-		<p> n° de la demande : <?php 
+		<p><?php 
 			
 			$sql = 'SELECT max(id_publication) from publication';
 				$req = $bd->prepare($sql);
