@@ -102,26 +102,7 @@ require('essaiCAS.php');
 					{
 					die('<div class="filtre"> Erreur : ' . $e->getMessage() . '</div></body></html>'); 
 					}				
-				//////////////////////////////////////////////////////////////////insertion table coordinateur
 				
-				$sql = 'INSERT INTO coordinateur (nom_co, prenom_co, qualite_co, composante_co, laboratoire_co, tel_co, mail_co) VALUES (:nom_co, :prenom_co ,:qualite_co ,:composante_co ,:laboratoire_co ,:tel_co ,:mail_co)';
-				
-				try	
-					{
-						$req = $bd->prepare($sql);
-						$req->bindValue(':nom_co'		,htmlspecialchars($_POST['nom_co']));
-						$req->bindValue(':prenom_co'	,htmlspecialchars($_POST['prenom_co']));			
-						$req->bindValue(':qualite_co'	,htmlspecialchars($_POST['qualite_co']));
-						$req->bindValue(':composante_co'	,htmlspecialchars($_POST['composante_co']));
-						$req->bindValue(':laboratoire_co'	,htmlspecialchars($_POST['laboratoire_co']));
-						$req->bindValue(':tel_co'		,htmlspecialchars($_POST['tel_co']));
-						$req->bindValue(':mail_co'		,htmlspecialchars($_POST['mail_co']));
-						$req->execute();
-					}
-					catch(PDOException $e)
-					{
-					die('<div class="filtre"> Erreur : ' . $e->getMessage() . '</div></body></html>'); 
-					}
 				
 				//////////////////////////////////////////////////////////////////insertion table publication 
 					
@@ -187,6 +168,29 @@ require('essaiCAS.php');
 				{
 					die('<div class="filtre"> Erreur : ' . $e->getMessage() . '</div></body></html>'); 
 				}
+		
+		
+		//////////////////////////////////////////////////////////////////insertion table coordinateur
+				
+				$sql = 'INSERT INTO coordinateur (nom_co, prenom_co, qualite_co, composante_co, laboratoire_co, tel_co, mail_co,id_publication) VALUES (:nom_co, :prenom_co ,:qualite_co ,:composante_co ,:laboratoire_co ,:tel_co ,:mail_co, :id_publication)';
+				
+				try	
+					{
+						$req = $bd->prepare($sql);
+						$req->bindValue(':nom_co'		,htmlspecialchars($_POST['nom_co']));
+						$req->bindValue(':prenom_co'	,htmlspecialchars($_POST['prenom_co']));			
+						$req->bindValue(':qualite_co'	,htmlspecialchars($_POST['qualite_co']));
+						$req->bindValue(':composante_co'	,htmlspecialchars($_POST['composante_co']));
+						$req->bindValue(':laboratoire_co'	,htmlspecialchars($_POST['laboratoire_co']));
+						$req->bindValue(':tel_co'		,htmlspecialchars($_POST['tel_co']));
+						$req->bindValue(':mail_co'		,htmlspecialchars($_POST['mail_co']));
+						$req->bindValue(':id_publication'		,$_SESSION['num_publi']);
+						$req->execute();
+					}
+					catch(PDOException $e)
+					{
+					die('<div class="filtre"> Erreur : ' . $e->getMessage() . '</div></body></html>'); 
+					}
 			
 		/*chdir("./$rep");
 		
