@@ -50,7 +50,7 @@ require('essaiCAS.php');
 	
 
 	<div class="table-title">
-		<h3>Tableau de bord</h3>
+
 		</div>
 		<table class="table-fill">
 		<thead>
