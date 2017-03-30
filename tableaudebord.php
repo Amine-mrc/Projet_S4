@@ -76,6 +76,8 @@ require('essaiCAS.php');
 			</tr>
 			
 			<tr>
+				<td class="text-left">14/11/2016</td>
+				<td class="text-left">00402344</td>
 				<td class="text-left">Manifestation scientifique</td>
 				<td class="text-left">En attente d'informations</td>
 				<td class="text-left">A joindre : argumentaire                   <input id="file" type="file" name="file" value="toto" ></input> </td>
@@ -83,6 +85,8 @@ require('essaiCAS.php');
 			</tr>
 
 			<tr>
+				<td class="text-left">05/05/2016</td>
+				<td class="text-left">00367876</td>
 				<td class="text-left">Manifestation scientifique</td>
 				<td class="text-left">Validé par le BRED</td>
 				<td class="text-left">Dossier complet</td>
