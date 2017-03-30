@@ -3,13 +3,13 @@ $(document).ready(function(){
 	
 	$('#menu li').click(function(){
 		
-		if($('#menu li').is("#active")){
+		if($('#menu li').is("#active2")){
 			console.log("a id active");
 			alert("ok");
 		}
 		else{
 			console.log("n'a pas la id");
-			$(this).attr('id', 'active');
+			$(this).attr('id', 'active2');
 		}
 	});
 	
