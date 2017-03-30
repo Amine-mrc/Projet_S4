@@ -601,9 +601,7 @@ require('essaiCAS.php');
 
 						</p>
 
-				</div>				
-
-				<?php 
+<?php 
 	if(isset($_POST["Envoyer"])){
                  require ('PHPMailerAutoload.php');
 
@@ -650,6 +648,10 @@ else echo "Veuillez uploader votre fichier";
 
 }
 ?>
+
+				</div>				
+
+				
 
 			</form>		
 
