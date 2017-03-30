@@ -50,13 +50,17 @@ body {
 
 #menu li#active2 a
 {
-   
-
-	
 	background-color: #06B4E4;
 	border-radius:8px 8px 0 0;
-	
-	
+}
+
+#menu li#hover1:hover
+{
+	background-color: #06B4E4;
+
+	background-image:-webkit-linear-gradient(top, #06B4E4 0%, #2A2333 100%);
+
+	background-image:linear-gradient(to bottom, #06B4E4 0%, #2A2333 100%);
 }
 
 #menu li{
