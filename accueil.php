@@ -16,7 +16,7 @@ require('essaiCAS.php');
 		<img id="logo" src="logoparis13.png" alt="Logo iut" height="75" width="170" align="right"  >
 		
 		<ul id="menu">
-        <li class="active2"><a href="accueil.php">Accueil</a></li>
+        <li id="active2"><a href="accueil.php">Accueil</a></li>
         <li><a href="TableaudeBord.php">Tableau de bord </a> </li>
          
               <li><a href="#">Demande de subvention</a>
