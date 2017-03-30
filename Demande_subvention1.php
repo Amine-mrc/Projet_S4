@@ -1,6 +1,6 @@
 <?php session_start(); 
 require('essaiCAS.php');
-?>﻿
+?>
 <!DOCTYPE html>
 <html>
 
