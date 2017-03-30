@@ -285,60 +285,6 @@ body {
 
 
 
-
-
-
-
-.par{
-       background: #F3F2ED;
-       border: 4px double white;
-       padding: 0 20px;
-       margin: 10px 0 20px 0;
-       margin-right : 150px;
-       margin-bottom : 20px;
-       font-family: Georgia,serif;
-       border-radius: 0px;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px;
-
-}
-
-
-
-
-
-/*Bloc informations du site */
-
-
-#par{
-
-   
-
-  
-
-       background: #F3F2ED;
-
-       border: 4px double white;
-
-       padding: 0 20px;
-
-       margin: 10px 0 6px 0;
-
-       margin-left : 100px;
-
-       margin-right : 150px;
-
-       font-family: Georgia,serif;
-
-       border-radius: 0px;
-
-      -moz-border-radius: 10px;
-
-      -webkit-border-radius: 10px;
-
- 
-
-}
 #blocchiffres{
 
 	width : 800px;
@@ -405,7 +351,7 @@ body {
 
 
 
-       background-image : url("icone.pgn");
+       background-image : url("icone.png");
 
 
 
@@ -517,15 +463,6 @@ footer
 
 
 
-#Par{
-
-        font-family: Georgia,serif;
-
-      
-
-
-
-}
 *, *:before, *:after {
 
   -moz-box-sizing: border-box;
@@ -809,7 +746,7 @@ label {
 
 .numbere {
 
-background-color: #ff5555;
+background-color: #5566fc;
 
   color: #fff;
 
@@ -874,7 +811,7 @@ div.droite {
 #boutton_envoyer{
 
         border: 2px solid transparent;
-  	background: #49A3D0;
+  	background: #5566fc;
   	color: white;
   	font-size: 16px;
   	line-height: 25px;
@@ -883,8 +820,9 @@ div.droite {
  	border-radius: 3px;
  	box-shadow: none;
  	display: block;
-	width: 250px;
-	margin-left : 400px;
+	width: 20%;
+	margin-left : 50%;
+	margin-right: 50%;
 
 
 
