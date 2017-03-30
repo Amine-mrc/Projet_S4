@@ -1,8 +1,9 @@
 
 body {
         padding : 2%;
-	margin-left : 8%;  
-        background-color: #E8EBED;
+	margin-left : 5%;
+	margin-right : 5%;
+	background-color: #E8EBED;
          background-image: url("fond_logo.png"), url("fond_trait.png");
 	background-attachment: fixed, fixed;
 	background-position: center -90px, 0px 0px;
