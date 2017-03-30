@@ -233,13 +233,14 @@ body {
 
 #menu li#active2 a
 {
-    background-color: #FF8C00;
-    border-radius:8px 8px 0 0;
-	-moz-transition: .8s all .3s;
+   
+   	 border-radius:8px 8px 0 0;
+	
+	background-color: #06B4E4;
 
-	-webkit-transition: .8s all .3s;
+	background-image:-webkit-linear-gradient(top, #06B4E4 0%, #2A2333 100%);
 
-	transition: .8s all .3s;
+	background-image:linear-gradient(to bottom, #06B4E4 0%, #2A2333 100%);
 }
 
 .bordereau p{
