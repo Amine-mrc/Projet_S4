@@ -14,7 +14,7 @@ require('essaiCAS.php');
 
         <title>Demande de subvention pour publication</title>
 
-        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="normalize2.css">
 
         <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
 
@@ -354,8 +354,8 @@ require('essaiCAS.php');
 			
 		</div>
 		
-				
-				<p> <input type="submit" name="envoyer" value="Enregistrer le dossier" /> </p>
+				<form>
+					<p> <input type="submit" name="envoyer" value="Enregistrer le dossier" /> </p>
 			</form>
 			
 			<form>
