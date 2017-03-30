@@ -51,6 +51,7 @@ body {
 #menu, #menu ul{
 
 	padding:0;
+	margin:auto;
 
 	/*margin:0;*/
 
@@ -63,6 +64,7 @@ body {
 }
 
 #menu li{
+	margin:auto;
 
 	display:inline-block;
 
@@ -73,6 +75,7 @@ body {
 }
 
 #menu ul li{
+	margin:auto;
 
 	display:inherit;
 
@@ -83,12 +86,14 @@ body {
 }
 
 #menu ul li:hover{
+	margin:auto;
 
 	border-radius:0;
 
 }
 
 #menu ul li:last-child{
+	margin:auto;
 
 	border-radius:0 0 8px 8px;
 
@@ -103,6 +108,7 @@ body {
 	max-height:0;
 
 	left: 0;
+	margin:auto;
 
 	right: 0;
 
@@ -117,6 +123,7 @@ body {
 }
 
 #menu li:hover ul{
+	margin:auto;
 
 	max-height:15em;
 
@@ -129,6 +136,7 @@ body {
 /* background des liens menus */
 
 #menu li{
+	margin:auto;
 
 	background-color: #06B4E4;
 
@@ -143,6 +151,7 @@ body {
 /* background des liens sous menus */
 
 #menu li li{
+	margin:auto;
 
 	background:#021220;
 
@@ -153,6 +162,7 @@ body {
 /* background des liens menus et sous menus au survol */
 
 #menu li:first-child:hover, #menu li:first-child li:hover{
+	margin:auto;
 
 	background:#06B4E4;
 
@@ -161,6 +171,7 @@ body {
 
 
 #menu li:nth-child(2):hover, #menu li:nth-child(2) li:hover{  /*Sous menu n°2 */
+	margin:auto;
 
 	background:#06B4E4;
 
@@ -169,6 +180,7 @@ body {
 
 
 #menu li:nth-child(3):hover, #menu li:nth-child(3) li:hover{ /* n°3*/
+	margin:auto;
 
 	background:#06B4E4;
 
@@ -177,6 +189,7 @@ body {
 
 
 #menu li:last-child:hover, #menu li:last-child li:hover{ /* n°4*/
+	margin:auto;
 
 	background:#06B4E4;
 
@@ -191,6 +204,7 @@ body {
 #menu a{
 
 	text-decoration:none;
+	margin:auto;
 
 	display:block;
 
@@ -203,12 +217,14 @@ body {
 }
 
 #menu ul a{
+	margin:auto;
 
 	padding:8px 0;
 
 }
 
 #menu li:hover li a{
+	margin:auto;
 
 	color:#fff;
 
@@ -217,6 +233,7 @@ body {
 }
 
 #menu li:hover a, #menu li li:hover a{
+	margin:auto;
 
 	color:#000;
 
@@ -225,7 +242,8 @@ body {
 #menu li#active2 a
 {
    
-   	 
+   	 	margin:auto;
+
 	
 	background-color: #06B4E4;
 	border-radius:8px 8px 0 0;
@@ -234,12 +252,14 @@ body {
 }
 
 #menu li#active3 a
-{
+{	margin:auto;
+
 	/*background-color: grey;*/
 	border-radius:8px 8px 0 0;
 }
 
 .bordereau p{
+	margin:auto;
 
 	margin-top : 40px;
 
@@ -260,6 +280,7 @@ body {
 
 
 .bordereau hr{
+	margin:auto;
 
 	margin-left : 50px;
 
@@ -268,6 +289,7 @@ body {
 
 
 .bordereau #pgeX {
+	margin:auto;
 
 	margin-left : 50px;
 
@@ -280,6 +302,7 @@ body {
 
 
 .bordereau #grdebarre{
+	margin:auto;
 
 	margin-left : 30px;
 
