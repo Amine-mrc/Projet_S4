@@ -5,7 +5,7 @@ $(document).ready(function(){
 		
 		if($('#menu li').is("#active")){
 			console.log("a id active");
-			$(this).attr('id', '');
+			alert("ok");
 		}
 		else{
 			console.log("n'a pas la id");
