@@ -288,7 +288,7 @@ require('essaiCAS.php');
 		
 		<p> n° de la demande : <?php 
 			
-			$req = $bd->prepare('SELECT id_publication from publication');
+			$req = $bd->prepare('SELECT max(id_publication) from publication');
 			$req->execute();
 			$resultat = $req->fetch(PDE::FETCH_ASSOC);
 			echo $resultat;
