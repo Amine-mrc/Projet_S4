@@ -29,12 +29,6 @@
 		</ul>
         
 		
-		<div id="searchbar"> <!-- Barre de recherche !-->
-			<form action="" class="formulaire">
-				<input class="champ" type="text" value="     Recherche..."/>
-                <input class="bouton" type="button" value=" " />
-            </form>
-        </div>
 		
 		<p> Tableau de bord </p>
 		<hr width=150px align=left > 
