@@ -49,6 +49,7 @@ body {
 
 
 #menu, #menu ul{
+position: fixed; 
 
 	padding:0;
 
@@ -63,6 +64,7 @@ body {
 }
 
 #menu li{
+position: fixed; 
 
 	display:inline-block;
 
@@ -73,6 +75,7 @@ body {
 }
 
 #menu ul li{
+position: fixed; 
 
 	display:inherit;
 
@@ -89,12 +92,14 @@ body {
 }
 
 #menu ul li:last-child{
+position: fixed; 
 
 	border-radius:0 0 8px 8px;
 
 }
 
 #menu ul{
+position: fixed; 
 
 	position:absolute;
 
@@ -117,6 +122,7 @@ body {
 }
 
 #menu li:hover ul{
+position: fixed; 
 
 	max-height:15em;
 
@@ -129,6 +135,7 @@ body {
 /* background des liens menus */
 
 #menu li{
+position: fixed; 
 
 	background-color: #06B4E4;
 
@@ -143,6 +150,7 @@ body {
 /* background des liens sous menus */
 
 #menu li li{
+position: fixed; 
 
 	background:#021220;
 
@@ -153,6 +161,7 @@ body {
 /* background des liens menus et sous menus au survol */
 
 #menu li:first-child:hover, #menu li:first-child li:hover{
+position: fixed; 
 
 	background:#06B4E4;
 
@@ -161,6 +170,7 @@ body {
 
 
 #menu li:nth-child(2):hover, #menu li:nth-child(2) li:hover{  /*Sous menu n°2 */
+position: fixed; 
 
 	background:#06B4E4;
 
@@ -169,6 +179,7 @@ body {
 
 
 #menu li:nth-child(3):hover, #menu li:nth-child(3) li:hover{ /* n°3*/
+position: fixed; 
 
 	background:#06B4E4;
 
@@ -189,6 +200,7 @@ body {
 
 
 #menu a{
+position: fixed; 
 
 	text-decoration:none;
 
@@ -203,12 +215,14 @@ body {
 }
 
 #menu ul a{
+position: fixed; 
 
 	padding:8px 0;
 
 }
 
 #menu li:hover li a{
+position: fixed; 
 
 	color:#fff;
 
@@ -217,6 +231,7 @@ body {
 }
 
 #menu li:hover a, #menu li li:hover a{
+position: fixed; 
 
 	color:#000;
 
@@ -225,7 +240,8 @@ body {
 #menu li#active2 a
 {
    
-   	 
+   	 position: fixed; 
+
 	
 	background-color: #06B4E4;
 	border-radius:8px 8px 0 0;
@@ -234,12 +250,15 @@ body {
 }
 
 #menu li#active3 a
-{
+{position: fixed; 
+
 	/*background-color: grey;*/
 	border-radius:8px 8px 0 0;
 }
 
 .bordereau p{
+	position: fixed; 
+
 
 	margin-top : 40px;
 
@@ -260,6 +279,7 @@ body {
 
 
 .bordereau hr{
+position: fixed; 
 
 	margin-left : 50px;
 
@@ -268,6 +288,7 @@ body {
 
 
 .bordereau #pgeX {
+position: fixed; 
 
 	margin-left : 50px;
 
@@ -280,6 +301,7 @@ body {
 
 
 .bordereau #grdebarre{
+position: fixed; 
 
 	margin-left : 30px;
 
