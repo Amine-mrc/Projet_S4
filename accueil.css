@@ -46,7 +46,6 @@ body {
 
 
 
-@media screen and (max-width : 760px){
 
 #menu, #menu ul{
 
@@ -238,7 +237,7 @@ body {
 	/*background-color: grey;*/
 	border-radius:8px 8px 0 0;
 }
-}
+
 .bordereau p{
 
 
@@ -274,7 +273,7 @@ body {
 
 	margin-top : 15px;
 
-	margin-right : 900px;
+	margin : auto;
 
 }
 
