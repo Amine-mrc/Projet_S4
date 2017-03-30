@@ -20,9 +20,6 @@ body {
 
 
 
-
-
-
 /*************************** Accueil ***************************/
 
 
@@ -718,7 +715,7 @@ label {
 
 .number {
 
-  background-color: #5566fc;
+  background-color: #08a9d7;
 
   color: #fff;
 
@@ -746,7 +743,7 @@ label {
 
 .numbere {
 
-background-color: #5566fc;
+background-color: #08a9d7;
 
   color: #fff;
 
@@ -811,7 +808,7 @@ div.droite {
 #boutton_envoyer{
 
         border: 2px solid transparent;
-  	background: #5566fc;
+  	background: #08a9d7;
   	color: white;
   	font-size: 16px;
   	line-height: 25px;
