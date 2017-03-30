@@ -349,14 +349,14 @@ require('essaiCAS.php');
 						
 						</div>
 					</div>
-				</div>				
+				</div>	
+					<p> <input type="submit" name="envoyer" value="Enregistrer le dossier" /> </p>
+
 			</form>		
 			
 		</div>
 		
-				<form>
-					<p> <input type="submit" name="envoyer" value="Enregistrer le dossier" /> </p>
-			</form>
+			
 			
 			<form>
 				<div>	
