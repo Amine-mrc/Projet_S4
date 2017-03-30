@@ -17,7 +17,7 @@ body {
 }
 
 form {
-  max-width: 90%;
+  max-width: 95%;
   margin: 10px auto;
   margin-left: auto;
   margin-right: auto;
@@ -34,12 +34,20 @@ h1 {
 	padding-top: 8px;
 }
 
+h2 {
+	margin: auto;
+	text-align: center;
+	font-size: 18px;
+}
+
 #logistique{
 	width: 95%;
 	height: 10em;
 	display: block;
 	margin: auto;
 	text-align: left;
+	font-size: 1.2em;
+	resize: none;
 }
 
 input[type="text"],
@@ -55,27 +63,26 @@ textarea,
 select {
   background: white;
   border: none;
-  font-size: 12px;
+  font-size: 1em;
   height: 22px;
-  margin-left: auto;
-  margin-right: auto;
   outline: 0;
-  padding: 5px;
-  width: 45%;
+  width: 70%;
   background-color: #e8eeef;
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   text-align: left;
 }
 
-p {
-	display: block;
-	margin: 10px;
+p.formulaire{
+	/*display: block;*/
+	padding-left: 55%;
+	text-align: left;
+	vertical-align: top;
 }
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 0 4px 8px 0;
+  margin: 0 4px 0 4px;
   
 }
 
@@ -116,6 +123,7 @@ div.but {
 fieldset {
   text-align: left;
   border: none;
+  padding-bottom: 18px;
 }
 
 legend {
@@ -124,17 +132,11 @@ legend {
 }
 
 label {
-  width: auto;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 8px;
+	float: left;
+	margin-left: -120%;
+	text-align: center;
 }
 
-label.light {
-  font-weight: 300;
-  display: inline;
-}
 
 .number {
   background-color: #5566fc;
@@ -149,6 +151,7 @@ label.light {
   text-shadow: 0 1px 0 rgba(255,255,255,0.2);
   border-radius: 100%;
 }
+
 .numbere {
 background-color: #ff5555;
   color: #fff;
@@ -163,48 +166,6 @@ background-color: #ff5555;
   border-radius: 100%;
 }
 
-/*bouton*/
-.myButton {
-	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
-	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
-	box-shadow:inset 0px 0px 0px 0px #ffffff;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
-	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
-	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
-	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
-	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
-	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
-	background-color:#ededed;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	border-radius:10px;
-	border:1px solid #dcdcdc;
-	cursor:pointer;
-	color:#777777;
-	font-family:Arial;
-	font-size:22px;
-	font-weight:bold;
-	padding:10px 24px;
-	text-decoration:none;
-	text-shadow:0px 0px 0px #ffffff;
-	margin: auto;
-}
-.myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
-	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
-	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
-	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
-	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
-	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
-	background-color:#dfdfdf;
-}
-
-.myButton:active {
-	position:relative;
-	top:1px;
-}
 
 /***********************************************************************************/
 
@@ -218,6 +179,7 @@ div.gauche {
 div.droite {
 	width: 50%;
 	float: right;
+
 }
 
 
@@ -229,7 +191,7 @@ div.droite {
 	border: 1px solid #aaa;
 	/* Sert uniquement à créer un "containing élément" pour pouvoir placer le titre avec position: absolute  */
 	position: relative;
-	margin: 10px;
+	margin: 10px 10px 30px 10px;
 }
 
 .masquable.ferme
@@ -237,6 +199,8 @@ div.droite {
 	/* La boite ferme n'a que border-top (sinon trait épais) */
 	border: none;
 	border-top: 1px solid #aaa;
+	margin: 10px 10px 30px 10px;
+
 }
 
 .masquable-titre 
