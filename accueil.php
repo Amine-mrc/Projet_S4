@@ -33,6 +33,7 @@ require('essaiCAS.php');
 			<?php 
 				if (isset($_REQUEST['logout'])) {
  					phpCAS::logout();
+					echo '<meta http-equiv="refresh" content="1; URL=https://www-info.iutv.univ-paris13.fr/Subventions/Projet_S4/accueil.php">
 				}	
 			?>
 		</ul>
