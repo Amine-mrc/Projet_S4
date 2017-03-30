@@ -48,6 +48,17 @@ body {
 
 }
 
+#menu li#active2 a
+{
+   
+
+	
+	background-color: #06B4E4;
+	border-radius:8px 8px 0 0;
+	
+	
+}
+
 #menu li{
 
 	display:inline-block;
