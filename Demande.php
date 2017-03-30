@@ -45,13 +45,8 @@ require('essaiCAS.php');
 
 
 		<hr width=150px align=left > 
-	
 		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
-
-		
-		
-		
-		<hr id = "grdebarre" width=1080px ></br>
+		<hr width=150px align=left >
 		
 	</div> <!-- Fin div bordereau !-->
 	
