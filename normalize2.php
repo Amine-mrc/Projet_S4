@@ -1,17 +1,78 @@
+<?php session_start(); 
+require('essaiCAS.php');
+?>﻿
+<!DOCTYPE html>
 <html>
 
-	<head
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Demande de subvention pour manifestation</title>
-        <link rel="stylesheet" href="normalize.css">
-        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="normalize.js"></script>
-    </head>
-  <body>
 
-		<div id="ID2">
+
+	<head>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Demande de subvention pour publication</title>
+
+        <link rel="stylesheet" href="normalize2.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+		<script src="normalize.js"></script>
+
+    </head>
+  
+   <body>
+	
+	<div class="bordereau">
+		<img id="logo" src="logoparis13.png" alt="Logo iut" height="75" width="170" align="right"  >
+		
+		<ul id="menu">
+        <li><a href="accueil.php">Accueil</a></li>
+        <li><a href="TableaudeBord.php">Tableau de bord </a> </li>
+         
+              <li><a href="#">Demande de subvention</a>
+                <ul> 
+                        <li><a href="Demande.php"> Informations </a> </li>
+                        <li><a href="Demande_subvention1.php"> Demande pour actes de colloques</a></li>
+                        <li><a href="Demande_subvention2.php"> Demande de manifestation scientifique </a> </li>
+                        
+                </ul> </li>
+                        <li><a href="https://www.univ-paris13.fr/bred/">En savoir plus</a></li>
+			<li><a href="?logout=">Déconnexion</a></li>
+			<?php 
+				if (isset($_REQUEST['logout'])) {
+ 					phpCAS::logout();
+				}	
+			?>
+		</ul>
+        
+		
+		
+		
+		<p> Accueil</p>
+		
+			
+
+
+		<hr width=150px align=left > 
+	
+		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
+
+		
+		
+		
+		<hr id = "grdebarre" width=1080px ></br>
+		
+	</div> <!-- Fin div bordereau !-->
+	
+	
+
+
+
+<div id="ID2">
 			<form action="index.html" method="post">
 				<h1>Formulaire de demande de subvention pour une manifestation scientifique</h1>
 				
@@ -293,5 +354,262 @@
 			
 		</div>
 		
-  </body>
+				
+				<p> <input type="submit" name="envoyer" value="Enregistrer le dossier" /> </p>
+			</form>
+			
+			<form>
+				<div>	
+						<p>Chargez le formulaire que vous aurez rempli :
+										<input id="file" type="file" name="file" ></input>
+						</p>
+				</div>
+			</form>
+			
+			<form>
+				<div>	<p> Une fois que vous aurez rempli votre formulaire, appuyez sur Envoyer pour envoyer le formulaire au BRED <br>
+										<input id="boutton_envoyer" type="submit" value="Envoyer le formulaire" title="Envoyer votre formulaire rempli au BRED" ></input>
+						</p>
+				</div>				
+			</form>		
+			
+		</div>
+		
+		
+		
+			<!---------------------------------------------------------------------------------------------------------------------------->
+
+		
+
+		
+
+		
+
+<!-- Remplacer "second text par la suite du formulaire -->
+
+		<div id="ID2" style="display:none;"><form action="index.html" method="post">
+
+				<h1>Formulaire de demande de subvention pour une manifestation scientifique</h1>
+
+			
+
+				<fieldset>
+
+					<legend><span class="numbere">1</span>Coordinateur Paris 13</legend>
+
+					<!--------------------->
+					<div class="masquable">
+						<h2 class="masquable-titre"><span>-</span></h2>
+						<div class="masquable-contenu">
+							<p>	<label for="name">Prénom : </label>			<input type="text" size="20" id="name" name="user_name">	</p>
+							 
+							<p>	<label for="mail">Nom : </label>			<input type="email" id="mail" name="user_email">			</p>
+							  
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+							  
+							<p>	<label for="name">Composante : </label>		<input type="text" id="name" name="user_name">				</p>
+							  
+							<p>	<label for="mail">Laboratoire : </label>	<input type="email" id="mail" name="user_email">			</p>
+							  
+							<p>	<label for="password">Type (actes, ouvrage) et nom de la publication : </label>
+																			<input type="password" id="password" name="user_password">	</p>
+							<p>	<label for="name">Date prévue et éditeur : </label>
+																			<input type="text" id="name" name="user_name">				</p>
+									
+							<p>	<label for="mail">Adresse E-mail : </label>
+																			<input type="email" id="mail" name="user_email">			</p>
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+									
+						
+							
+						</div>
+					</div>
+				</fieldset>
+				
+				
+							<!------------------------------------------------------>
+
+				
+
+				
+
+				<div>
+
+					<legend><span class="numbere">2</span>Your profile</legend>
+
+					<div class="masquable ferme">
+
+						<h2 class="masquable-titre"><span>+</span></h2>
+
+						<div class="masquable-contenu">
+
+
+
+							<p>	<label for="name">Prénom : </label>			<input type="text" size="20" id="name" name="user_name">	</p>
+
+							 
+
+							<p>	<label for="mail">Nom : </label>			<input type="email" id="mail" name="user_email">			</p>
+
+							  
+
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+
+							  
+
+							<p>	<label for="name">Composante : </label>		<input type="text" id="name" name="user_name">				</p>
+
+							  
+
+							<p>	<label for="mail">Laboratoire : </label>	<input type="email" id="mail" name="user_email">			</p>
+
+							  
+
+							<p>	<label for="password">Type (actes, ouvrage) et nom de la publication : </label>
+
+																			<input type="password" id="password" name="user_password">	</p>
+
+							<p>	<label for="name">Date prévue et éditeur : </label>
+
+																			<input type="text" id="name" name="user_name">				</p>
+
+									
+
+							<p>	<label for="mail">Adresse E-mail : </label>
+
+																			<input type="email" id="mail" name="user_email">			</p>
+
+
+
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+
+									
+
+							<p>	<label>Age : </label>
+
+								<input type="radio" id="under_13" value="under_13" name="user_age">	<label for="under_13" class="light">Under 13</label>
+
+								<input type="radio" id="over_13" value="over_13" name="user_age">	<label for="over_13" class="light">13 or older</label>
+
+							</p>
+
+							
+
+						</div>
+
+					</div>
+
+
+
+					<legend><span class="numbere">2</span>Your profile</legend>
+
+					<div class="masquable ferme">
+
+						<h2 class="masquable-titre"><span>+</span></h2>
+
+						<div class="masquable-contenu">
+
+
+
+							<p>	<label for="name">Prénom : </label>			<input type="text" size="20" id="name" name="user_name">	</p>
+
+							 
+
+							<p>	<label for="mail">Nom : </label>			<input type="email" id="mail" name="user_email">			</p>
+
+							  
+
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+
+							  
+
+							<p>	<label for="name">Composante : </label>		<input type="text" id="name" name="user_name">				</p>
+
+							  
+
+							<p>	<label for="mail">Laboratoire : </label>	<input type="email" id="mail" name="user_email">			</p>
+
+							  
+
+							<p>	<label for="password">Type (actes, ouvrage) et nom de la publication : </label>
+
+																			<input type="password" id="password" name="user_password">	</p>
+
+							<p>	<label for="name">Date prévue et éditeur : </label>
+
+																			<input type="text" id="name" name="user_name">				</p>
+
+									
+
+							<p>	<label for="mail">Adresse E-mail : </label>
+
+																			<input type="email" id="mail" name="user_email">			</p>
+
+
+
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+
+									
+
+							<p>	<label>Age : </label>
+
+								<input type="radio" id="under_13" value="under_13" name="user_age">	<label for="under_13" class="light">Under 13</label>
+
+								<input type="radio" id="over_13" value="over_13" name="user_age">	<label for="over_13" class="light">13 or older</label>
+
+							</p>
+
+							
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+				<div class="but">
+
+					<button type="submit" class="but2">Sign Up</button>
+
+				</div>
+
+			</form>
+
+		</div>
+
+
+
+
+	
+	
+	
+	
+	
+	
+	<!-- Footer !-->
+	<hr id = "grdebarre2" width=1020px  >
+	
+	<footer>
+				<ul id="menu-footer">
+					<a href="" title="Contact">Contact</a>
+					<a href="" title="Mentions légales">Mentions légales</a>  
+					<a href="?logout" title="Deconnexion">Déconnexion</a>
+					<div id="liensfooter">	
+						<a title="Facebook" href="https://www.facebook.com/pg/univparis13/about/?ref=page_internal"><img width="25%" src="facebook.png"/></a>
+						<a title="Twitter" href="https://twitter.com/?lang=fr"><img width="25%" src="twitter.png"/></a>
+						<a title="Youtube" href="https://www.youtube.com/?hl=fr&gl=FR"><img width="25%" src="youtube.png"/></a>
+						<a title="Google" href="https://www.google.fr/"><img width="25%" src="google.png"/></a>
+					</div>
+				</ul>
+				
+	</footer>
+		
+	
+	
+	
+   </body>
+
+
 </html>
