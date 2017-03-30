@@ -287,6 +287,8 @@ require('essaiCAS.php');
 		<hr width=150px align=left >
 		
 		
+			
+		
 		
 		<hr id = "grdebarre" width=1080px >
 	</div> <!-- Fin div bordereau !-->
