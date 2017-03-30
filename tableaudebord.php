@@ -1,5 +1,7 @@
-<?php session_start(); ?>
-﻿<!DOCTYPE html>
+<?php session_start(); 
+require('essaiCAS.php');
+?>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -26,7 +28,13 @@
                         
                 </ul> </li>
                         <li><a href="https://www.univ-paris13.fr/bred/">En savoir plus</a></li>
-		</ul>
+			<li><a href="?logout=">Déconnexion</a></li>
+			<?php 
+				if (isset($_REQUEST['logout'])) {
+ 					phpCAS::logout();
+				}	
+			?>
+		</ul> <!-- Fin ul menu !-->
         
 		
 		
@@ -34,12 +42,7 @@
 		<hr width=150px align=left > 
 		<p id="pgeX"> Bienvenue Mr <?php echo $_SESSION['login'] ?></p>
 		
-		<div id="boutondeconnexion" >
-			<form action="" class="deconnexion" >
-				<input class="bouton" type="button" name="deconnexion" value="" onclick="self.location.href='deconnexion.php'"/>
-				
-            </form> 
-		</div>
+		
 		
 		<hr id = "grdebarre" width=1080px >
 		
@@ -84,7 +87,7 @@
 			
 		
 		</tbody>
-	</table>
+		</table>
   
 
  
