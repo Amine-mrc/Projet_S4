@@ -312,7 +312,7 @@ require('essaiCAS.php');
 												
 						</div>
 					</div>
-					
+					</br>
 					<div class="masquable ferme">
 						<h2 class="masquable-titre"><span>+</span></h2>
 						<div class="masquable-contenu">
