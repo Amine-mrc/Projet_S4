@@ -2,12 +2,14 @@ console.log("JS chargé")
 $(document).ready(function(){
 	
 	$('#menu li').click(function(){
-		if($(this).hasClass("active")){
-			console.log("a classe active");
+		
+		if($('#menu li').is("#active")){
+			console.log("a id active");
+			$(this).attr('id', '');
 		}
 		else{
-			console.log("n'a pas la classe");
-			$(this).addClass("ajoute active");
+			console.log("n'a pas la id");
+			$(this).attr('id', 'active');
 		}
 	});
 	
