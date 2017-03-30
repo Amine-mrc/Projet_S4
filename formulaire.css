@@ -237,11 +237,11 @@ body {
 
 .bordereau #pgeX {
 
-	margin-left : 50px;
+	padding-left : 8%;
 
 	margin-top : 15px;
 
-	margin-right : 900px;
+	margin: auto;
 
 }
 
