@@ -817,8 +817,9 @@ div.droite {
  	border-radius: 3px;
  	box-shadow: none;
  	display: block;
-	width: 20%;
+	width: 120px;
 	margin: auto;
+	margin-top: 10px;
 
 }
 
