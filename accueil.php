@@ -42,7 +42,7 @@ require('essaiCAS.php');
 		<hr width=150px align=left > 
 		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
 		<hr width=150px align=left > 
-		<p> n° de la demande : <?php echo $_SESSION['num_publi']; ?> </p>
+		<p> n° de la demande : <?php echo SELECT num_publi from financement ?> </p>
 		
 		<hr id = "grdebarre" width=1080px >
 		
