@@ -55,6 +55,8 @@ require('essaiCAS.php');
 		<table class="table-fill">
 		<thead>
 			<tr>	
+				<th class="text-center">Date</th>
+				<th class="text-center">Numero de demande</th>
 				<th class="text-center">Demande</th>
 				<th class="text-center">Etat de validation</th>
 				<th class="text-center">Commentaires</th>
