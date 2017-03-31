@@ -56,12 +56,12 @@ body {
 
 #menu li li#hover1
 {
-	background:#021220;
+	background-color:black;
 }
 
 #menu li li#hover1:hover
 {
-	background:#06B4E4;
+	background-color:#06B4E4;
 }
 
 #menu li{
