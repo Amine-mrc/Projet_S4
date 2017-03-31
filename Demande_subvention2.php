@@ -79,7 +79,7 @@ require('essaiCAS.php');
 			{
 			die('Erreur : ' . $e->getMessage()); 
 			}
-			$sql='select MAX(id_publication) from publication';
+			$sql='select MAX(id_manif) from manifestation';
 		
 			$req = $bd->prepare($sql);
 			try	
