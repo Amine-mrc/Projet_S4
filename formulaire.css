@@ -54,13 +54,14 @@ body {
 	border-radius:8px 8px 0 0;
 }
 
-#menu li#hover1
+#menu li li#hover1
 {
-	background-color: #06B4E4;
+	background:#021220;
+}
 
-	background-image:-webkit-linear-gradient(top, #06B4E4 0%, #2A2333 100%);
-
-	background-image:linear-gradient(to bottom, #06B4E4 0%, #2A2333 100%);
+#menu li li#hover1:hover
+{
+	background:#06B4E4;
 }
 
 #menu li{
