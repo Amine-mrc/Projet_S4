@@ -508,39 +508,39 @@ else echo "Veuillez uploader votre fichier";
 
 
 
-							<p>	<label for="name">Prénom : </label>			<input type="text" size="20" id="name" name="user_name">	</p>
+							<p>	<label for="name">Prénom : </label>			<input type="text" size="20" id="name" name="user_name" />	</p>
 
 							 
 
-							<p>	<label for="mail">Nom : </label>			<input type="email" id="mail" name="user_email">			</p>
+							<p>	<label for="mail">Nom : </label>			<input type="email" id="mail" name="user_email" />			</p>
 
 							  
 
-							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password">	</p>
+							<p>	<label for="password">Qualité : </label>	<input type="password" id="password" name="user_password" />	</p>
 
 							  
 
-							<p>	<label for="name">Composante : </label>		<input type="text" id="name" name="user_name">				</p>
+							<p>	<label for="name">Composante : </label>		<input type="text" id="name" name="user_name" />				</p>
 
 							  
 
-							<p>	<label for="mail">Laboratoire : </label>	<input type="email" id="mail" name="user_email">			</p>
+							<p>	<label for="mail">Laboratoire : </label>	<input type="email" id="mail" name="user_email" />			</p>
 
 							  
 
 							<p>	<label for="password">Type (actes, ouvrage) et nom de la publication : </label>
 
-																			<input type="password" id="password" name="user_password">	</p>
+																			<input type="password" id="password" name="user_password" />	</p>
 
 							<p>	<label for="name">Date prévue et éditeur : </label>
 
-																			<input type="text" id="name" name="user_name">				</p>
+																			<input type="text" id="name" name="user_name" />				</p>
 
 									
 
 							<p>	<label for="mail">Adresse E-mail : </label>
 
-																			<input type="email" id="mail" name="user_email">			</p>
+																			<input type="email" id="mail" name="user_email" />			</p>
 
 
 
