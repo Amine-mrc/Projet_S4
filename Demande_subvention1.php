@@ -414,7 +414,7 @@ require('essaiCAS.php');
 
 						</p>
 						<?php 
-	if(isset($_POST["boutton_envoyer"])){
+	if(isset($_POST['Envoyer']=="Envoyer+le+formulaire")){
                  require ('PHPMailerAutoload.php');
 
     // if(isset($_POST["file"])){
@@ -433,7 +433,7 @@ $mail->Port = 587;
  
  $mail->AddAttachment($_POST["file"]); // ajout de la pièce jointe
   
- $mail->AddAddress('zoubair.haja@gmail.com','Zoubair'); // ajout du destinataire
+ $mail->AddAddress('okumurarin95110@gmail.com','Nirmou'); // ajout du destinataire
  $mail->From = "demandedesubvention@gmail.com"; // adresse mail de l’expéditeur
  $mail->FromName =  "Demandeur de subvention"; // nom de l’expéditeur
  //$mail->AddReplyTo("expediteur@domaine.fr","Expediteur"); // adresse mail et nom du contact de retour
