@@ -228,16 +228,13 @@ body {
 
 #menu li#active2 a
 {
-   
-
 	
 	background-color: #06B4E4;
 	border-radius:8px 8px 0 0;
 	
-	
 }
 
-#menu li li#active3 a
+#menu li#active3
 {
 	background-color: black;
 	color:white;
