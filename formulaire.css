@@ -50,13 +50,13 @@ body {
 
 #menu li#active2 a
 {
-	background-color: #06B4E4;
+	background-color: black;
 	border-radius:8px 8px 0 0;
 }
 
 #menu li#hover1
 {
-	background-color:black;
+	color:white;
 }
 
 #menu li#hover1:hover
