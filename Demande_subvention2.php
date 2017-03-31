@@ -84,9 +84,10 @@ require('essaiCAS.php');
 		
 			$sql='select MAX(id_manif) from manifestation';
 		
-			$req = $bd->prepare($sql);
+			
 			try	
 			{
+				$req = $bd->prepare($sql);
 				$req->execute();
 				$tab = $req->fetch(PDO::FETCH_NUM);
 				echo "n° de la demande: ".(int)$tab[0];
