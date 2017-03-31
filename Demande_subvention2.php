@@ -69,12 +69,20 @@ require('essaiCAS.php');
 		
 	</div> <!-- Fin div bordereau !-->
 	
+	<?php
 	
+		if(@$_SESSION['valid2']==true)
+			echo "Le formulaire e été rempli avec success";
+		
+		
+		$_SESSION['valid2']=false;
+	
+	?>
 
 
 
 <div id="ID2">
-			<form action="index.html" method="post">
+			<form action="validation_demande2.php" method="post">
 				<h1>Formulaire de demande de subvention pour une manifestation scientifique</h1>
 				
 				<h4><strong>Remplir les informations obligatoire avec *</strong></h4>
