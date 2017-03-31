@@ -82,7 +82,7 @@ require('essaiCAS.php');
 			}
 		
 		
-			$sql='select MAX(id_manif) from manifestation';
+			$sql='select caractere from manifestation';
 		
 			
 			try	
