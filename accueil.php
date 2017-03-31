@@ -23,9 +23,9 @@ require('essaiCAS.php');
          
               <li><a href="#">Demande de subvention</a>
                 <ul> 
-                        <li><a href="Demande.php"> Informations </a> </li>
-                        <li><a href="Demande_subvention1.php"> Demande pour actes de colloques</a></li>
-                        <li><a href="Demande_subvention2.php"> Demande de manifestation scientifique </a> </li>
+                        <li id="active3"><a href="Demande.php"> Informations </a> </li>
+                        <li id="active3"><a href="Demande_subvention1.php"> Demande pour actes de colloques</a></li>
+                        <li id="active3"><a href="Demande_subvention2.php"> Demande de manifestation scientifique </a> </li>
                         
                 </ul> </li>
                         <li><a href="https://www.univ-paris13.fr/bred/">En savoir plus</a></li>
