@@ -79,7 +79,7 @@ require('essaiCAS.php');
 				die('Erreur : ' . $e->getMessage()); 
 			}
 			
-	   		$sql='select nom_publication from publication';
+	   		/*$sql='select nom_publication from publication';
 	   		echo '<br><br><br>';
 			$req = $bd->prepare($sql);
 			try	
@@ -92,9 +92,9 @@ require('essaiCAS.php');
 			catch(PDOException $e)
 			{
 				die('<div class="filtre"> Erreur : ' . $e->getMessage() . '</div></body></html>'); 
-			}	
+			}*/	
 		
-			/*$sql='select MAX(id_publication) from publication';
+			$sql='select MAX(id_publication) from publication';
 		
 			$req = $bd->prepare($sql);
 			try	
@@ -106,7 +106,7 @@ require('essaiCAS.php');
 			catch(PDOException $e)
 			{
 				die('<div class="filtre"> Erreur : ' . $e->getMessage() . '</div></body></html>'); 
-			}*/	
+			}
 		
 		
 		?>
