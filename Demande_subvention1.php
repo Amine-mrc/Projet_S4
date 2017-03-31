@@ -80,7 +80,7 @@ require('essaiCAS.php');
 			}
 		
 		
-			$sql='select nom_publication from publication';
+			$sql='select MAX(id_publication) from publication';
 		
 			$req = $bd->prepare($sql);
 			try	
