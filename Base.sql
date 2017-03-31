@@ -57,7 +57,8 @@ create table publication
 create table financement
 (
 	id_financement INTEGER unsigned not null AUTO_INCREMENT primary key,
-	id_publication integer unsigned not null references publication,
+	id_publication integer references publication,
+	id_manif integer references manifestation,
 	montant text,
 	montant_editeur text,
 	subvention_demande_au_CS text,
@@ -70,8 +71,7 @@ create table manifestation
 (
 	id_manif INTEGER unsigned not null AUTO_INCREMENT primary key,
 	nom_manif text,
-	type_manif text,
-	date_manif date,
+	date_manif text,
 	lieu text,
 	caractere varchar(32),
 	site_web text,
@@ -79,19 +79,15 @@ create table manifestation
 );
 
 
-
-
-
 create table organisateur
 (
 	id_manif integer references manifestation,
-	nom_manif text references manifestation,
 	responsables varchar(32),
 	addresse text,
-	tel integer,
+	tel text,
 	mail text,
 	co_responsable varchar(32),
-	adrresse_co_responsable text,
+	addresse_co_responsable text,
 	tel_co_responsable text,
 	mail_co_responsable text,
 	conditions_organisation text
@@ -100,7 +96,6 @@ create table organisateur
 create table participants
 (
 	id_manif integer references manifestation,
-	nom_manif text references manifestation,
 	nb_participants integer,
 	dont_payants integer,
 	dont_non_payants integer,
@@ -111,7 +106,6 @@ create table participants
 create table conferenciers
 (
 	id_manif integer references manifestation,
-	nom_manif text references manifestation,
 	nb_conferenciers integer,
 	dont_Paris13 integer,
 	dont_France integer,
@@ -122,17 +116,15 @@ create table conferenciers
 create table Montant_droit_inscription_participants
 (
 	id_manif integer references manifestation,
-	nom_manif text references manifestation,
-	etablissement_publics float,
-	etudiants float,
-	etablissement_privés float,
-	plein_tarif float
+	etablissement_publics text,
+	etudiants text,
+	etablissement_prives text,
+	plein_tarif text
 );
 
 create table depenses_prevues
 (
 	id_manif integer references manifestation,
-	nom_manif text references manifestation,
 	publicite_courrier_tel text,
 	fournitures text,
 	location_salle_conference text,
@@ -152,20 +144,19 @@ create table depenses_prevues
 create table montant_subvention_sollicitees
 (
 	id_manif integer references manifestation,
-	nom_manif text references manifestation,
-	ministere_enseignement_sup_recherche float,
-	ministere_affaires_etrangeres float,
-	autres_ministeres float,
-	union_europeenne float,
-	municipalite float,
-	conseil_regional float,
-	conseil_general float,
-	CNRS float,
-	INSERM float,
-	autres_EPST_ou_EPIC float,
-	organismes_prives float,
-	autres_organismes float,
-	subvention_demandé_a_Univ_Paris13 float
+	ministere_enseignement_sup_recherche text,
+	ministere_affaires_etrangeres text,
+	autres_ministeres text,
+	union_europeenne text,
+	municipalite text,
+	conseil_regional text,
+	conseil_general text,
+	CNRS text,
+	INSERM text,
+	autres_EPST_ou_EPIC text,
+	organismes_prives text,
+	autres_organismes text,
+	subvention_demande_a_Univ_Paris13 text
 );
 
 
