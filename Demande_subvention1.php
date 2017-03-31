@@ -51,6 +51,23 @@ require('essaiCAS.php');
 		
       
 		
+	
+		
+			
+
+
+		<hr width=400px align=left > 
+
+		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
+		<hr width=400px align=left >
+		
+		
+		
+		
+		<hr id = "grdebarre" width=1080px >
+	</div> <!-- Fin div bordereau !-->
+	
+	
 	<?php
 		
 			try
@@ -79,23 +96,6 @@ require('essaiCAS.php');
 		
 		
 		?>
-		
-			
-
-
-		<hr width=400px align=left > 
-
-		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
-		<hr width=400px align=left >
-		
-		
-		
-		
-		<hr id = "grdebarre" width=1080px >
-	</div> <!-- Fin div bordereau !-->
-	
-	
-
 
 
 <div id="ID1">
@@ -420,7 +420,6 @@ require('essaiCAS.php');
 
 				<?php 
 	if(isset($_POST["boutton_envoyer"])){
-		 echo '<script>console.log("Your stuff here")</script>';
                  require ('PHPMailerAutoload.php');
 
      if(isset($_POST["file"])){
