@@ -2,7 +2,7 @@
 	if(isset($_POST["boutton_envoyer"])){
                  require ('PHPMailerAutoload.php');
 
-     if(isset($_POST["file"])){
+    // if(isset($_POST["file"])){
  $mail = new PHPmailer();
   $mail->IsSMTP(); // activation des fonctions SMTP
  $mail->SMTPAuth = true; // on l’informe que ce SMTP nécessite une autentification
@@ -39,10 +39,10 @@ $mail->Port = 587;
 $mail->SMTPDebug = 1;
 
 
-        }
+   //     }
 
-else echo "Veuillez uploader votre fichier";
+/*else echo "Veuillez uploader votre fichier";
 
-}
+}*/
 
 ?>
