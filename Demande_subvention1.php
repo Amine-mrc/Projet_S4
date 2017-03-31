@@ -87,7 +87,7 @@ require('essaiCAS.php');
 			{
 				$req->execute();
 				$tab = $req->fetch(PDO::FETCH_NUM);
-				echo "n° de la demande: ".$tab[0];
+				echo "n° de la demande: ".($tab[0]+1);
 			}
 			catch(PDOException $e)
 			{
