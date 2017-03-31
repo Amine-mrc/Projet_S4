@@ -51,23 +51,6 @@ require('essaiCAS.php');
 		
       
 		
-	
-		
-			
-
-
-		<hr width=400px align=left > 
-
-		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
-		<hr width=400px align=left >
-		
-		
-		
-		
-		<hr id = "grdebarre" width=1080px >
-	</div> <!-- Fin div bordereau !-->
-	   
-	   
 	<?php
 		
 			try
@@ -96,6 +79,20 @@ require('essaiCAS.php');
 		
 		
 		?>
+		
+			
+
+
+		<hr width=400px align=left > 
+
+		<p id="pgeX">Identifiant utilisateur : <?php echo phpCAS::getUser(); ?> </p>
+		<hr width=400px align=left >
+		
+		
+		
+		
+		<hr id = "grdebarre" width=1080px >
+	</div> <!-- Fin div bordereau !-->
 	
 	
 
@@ -399,7 +396,7 @@ require('essaiCAS.php');
 
 						<p>Chargez le formulaire que vous aurez rempli :
 							
-							<input id="file" type="file" name="file" ></input>
+							<input id="file" type="file" name="file" >
 						</p>
 
 				</div>
@@ -413,7 +410,7 @@ require('essaiCAS.php');
 
 				<div>	<p> Une fois que vous aurez rempli votre formulaire, appuyez sur Envoyer pour envoyer le formulaire au BRED <br>
 
-										<input id="boutton_envoyer" type="submit" value="Envoyer le formulaire" title="Envoyer votre formulaire rempli au BRED" ></input>
+										<input id="boutton_envoyer" type="submit" value="Envoyer le formulaire" name="Envoyer" />
 
 						</p>
 
