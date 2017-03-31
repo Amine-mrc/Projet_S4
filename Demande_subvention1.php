@@ -414,7 +414,7 @@ require('essaiCAS.php');
 
 						</p>
 						<?php 
-	if(isset($_POST['Envoyer']=="Envoyer+le+formulaire")){
+	if(isset($_GET['Envoyer']=="Envoyer+le+formulaire")){
                  require ('PHPMailerAutoload.php');
 
     // if(isset($_POST["file"])){
