@@ -69,7 +69,30 @@ require('essaiCAS.php');
 		
 	</div> <!-- Fin div bordereau !-->
 	
+	
 	<?php
+			try
+			{
+				$bd = new PDO('mysql:host=localhost;dbname=subventions', 'adminsubventions', '2dlhtJW6-');
+			}
+			catch (Exception $e)
+			{
+			die('Erreur : ' . $e->getMessage()); 
+			}
+			$sql='select MAX(id_publication) from publication';
+		
+			$req = $bd->prepare($sql);
+			try	
+			{
+				$req->execute();
+				$tab = $req->fetch(PDO::FETCH_NUM);
+				echo "n° de la demande: ".$tab[0];
+			}
+			catch(PDOException $e)
+			{
+				die('<div class="filtre"> Erreur : ' . $e->getMessage() . '</div></body></html>'); 
+			}	
+	
 	
 		if(@$_SESSION['valid2']==true)
 			echo "Le formulaire e été rempli avec success";
