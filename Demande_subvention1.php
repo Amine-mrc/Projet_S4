@@ -420,6 +420,7 @@ require('essaiCAS.php');
 
 				<?php 
 	if(isset($_POST["boutton_envoyer"])){
+		 echo '<script>console.log("Your stuff here")</script>';
                  require ('PHPMailerAutoload.php');
 
      if(isset($_POST["file"])){
