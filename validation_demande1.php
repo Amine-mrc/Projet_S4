@@ -220,7 +220,7 @@
 	}
 
 	$_SESSION['valid1']=true;
-	header('Location: Demande_Subvention1.php');
+	header('Location: Demande_subvention1.php');
 	
 
 ?>
