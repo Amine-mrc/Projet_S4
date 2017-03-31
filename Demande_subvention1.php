@@ -85,6 +85,7 @@ require('essaiCAS.php');
 			try	
 			{
 				$req->execute();
+				echo "nom de la publication :".'<br/>';
 				while($tab = $req->fetch(PDO::FETCH_ASSOC))
 					echo $tab['nom_publication'].'<br/>';
 
