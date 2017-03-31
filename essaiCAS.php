@@ -9,7 +9,6 @@ error_reporting(E_ALL & ~E_NOTICE);
 
 require_once('CAS.php');
 
-phpCAS::setDebug();
 phpCAS::setVerbose(true);
 // Initialize phpCAS
 phpCAS::client(CAS_VERSION_2_0, $cas_host, $cas_port, $cas_context,true);
